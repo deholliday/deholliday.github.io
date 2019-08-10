@@ -1,0 +1,23 @@
+name: "Derek E. Holliday"
+output_dir: "."
+navbar:
+  title: "Derek E. Holliday"
+  left:
+    - text: "Research"
+      href: research.html
+    - text: "CV"
+      href: cv.html
+
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/deholliday
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/deholliday_ucla
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/derekholliday/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
