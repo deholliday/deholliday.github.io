@@ -10,7 +10,7 @@ navbar:
 
   right:
     - icon: fa-envelope fa-lg
-      href: contact.html
+      href: mailto:deholliday@ucla.edu
     - icon: fa-github fa-lg
       href: http://github.com/deholliday
     - icon: fa-twitter fa-lg
