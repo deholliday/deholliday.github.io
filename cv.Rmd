@@ -1,0 +1,6 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<embed src="https://deholliday.github.io/pdfs/Holliday_CV.pdf" type="application/pdf" />
