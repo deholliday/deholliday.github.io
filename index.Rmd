@@ -7,6 +7,6 @@
 
 I am a PhD student in Political Science at UCLA. My research interests are broadly related to representation, especially at local levels of government in the United States. Specifically, my research aims to determine the degree to which national-level politics influence local-level decisions and quantify the consequences of such nationalization. I utilize methods involving big data, machine learning, and text-as-data. 
 
-Currently, I work as a research analyst on Nationscape, a U.S. election survey interviewing 6,200 people a week, every week, until the 2020 election. Nationscape is funded by the Democracy Fund.
+Currently, I work as a research analyst on Nationscape, a U.S. election survey interviewing 6,200 people a week, every week, until the 2020 election. Nationscape is funded by the Democracy Fund. Outside academia, you can find me trail/mountain/long distance running (from nothing in particular) and thanklessly rooting for the Seattle Mariners.
 
-Please contact me at deholliday AT ucla DOT edu
+Please contact me at **deholliday** AT **ucla** DOT **edu**
