@@ -9,7 +9,7 @@ title: NULL
 
 "Who Gets a Streetlight? Race, Class, and Responsiveness in U.S. Cities" (with Brian T. Hamel)
 
-<a href="deholliday.github.io/pdfs/Holliday_Debates_Nationalization.pdf" target="_blank">"Are All Politics Still Local? Evidence from Televised U.S. Debates"</a>
+<a href="deholliday.github.io/pdfs/Holliday_DebatesText_04-08-20.pdf" target="_blank">"Nationalized Elections, Localized Campaigns: Evidence from Televised U.S. Debates"</a>
 
 "Income, Education and Policy Priorities" (with Chris Tausanovitch)
 
