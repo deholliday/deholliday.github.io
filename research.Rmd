@@ -5,13 +5,13 @@ title: NULL
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-#### <a href="deholliday.github.io/pdfs/Holliday_DebatesText_04-08-20.pdf" target="_blank">Nationalized Elections, Localized Campaigns: Evidence from Televised U.S. Debates</a> (Under Review)
+#### <a href="deholliday.github.io/pdfs/Holliday_DebatesText_04-08-20.pdf" target="_blank">Nationalized Elections, Localized Campaigns: Evidence from Televised U.S. Debates</a> (Working Paper)
 
 Within states, partisan vote shares of presidential and gubernatorial candidates are becoming increasingly correlated, raising an important question for representation: are election results increasingly similar because voters genuinely prefer candidates of a particular type or because voters see state races as referenda on national politics? Recent research focuses on explanations derived from voters, elites, and media.  Largely ignored, however, is where these explanations intersect: campaigns and campaign rhetoric. Because national issues are efficient and proven motivators, state candidates may emphasize them to influence voters.  I evaluate this possibility using text analysis and machine learning techniques on a corpus of presidential and gubernatorial electoral debates from 2000 to 2018. I find little evidence of nationalized campaign appeals; candidates tend to emphasize issues germane to their jurisdiction. These findings suggest similarities in outcomes independent of direct candidate appeals, necessitating renewed focus on the voter decision-making process in state and local politics.
 
 <br>
 
-#### Who Gets a Streetlight? Race, Class, and Responsiveness in U.S. Cities (Working Paper, with Brian T. Hamel)
+#### A Streetlight Left Desired: Inequalities in City Service Delivery (Working Paper, with Brian T. Hamel)
 
 Recent work raises concerns about whether all citizens have equal political voice. We assess inequalities in public goods and service provision in U.S. cities, the primary provider of these resources. We introduce the largest dataset of citizen-initiated demands for services — almost 25 million requests from 15 cities over a 10-year period. We link these data to information about neighborhood characteristics, and show that cities respond faster to advantaged neighborhoods than less advantaged neighborhoods. However, we show the substantive magnitude of these differences are small. For example, we find that service demands from white neighborhoods are responded to about 1.9 hours faster than the same demands from less white neighborhoods. These findings lead us to conclude that citizens of all economic and demographic backgrounds are much closer to “political equals” than not in access to public goods and services.
 
