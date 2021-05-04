@@ -1,7 +1,7 @@
 ---
 name: "Research"
-title: "Research"
-pagetitle: "&nbsp;"
+title: " "
+pagetitle: "Research"
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
