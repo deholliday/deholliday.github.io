@@ -1,6 +1,6 @@
 ---
 title: " "
-pagetitle: "CV"
+pagetitle: " "
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
