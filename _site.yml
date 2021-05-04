@@ -11,11 +11,11 @@ navbar:
   right:
     - icon: fa-envelope fa-lg
       href: mailto:deholliday@ucla.edu
-    - icon: fab-github fa-lg
+    - icon: fab fa-github
       href: http://github.com/deholliday
-    - icon: fab-twitter fa-lg
+    - icon: fab fa-twitter
       href: https://twitter.com/deholliday_ucla
-    - icon: fab-linkedin fa-lg
+    - icon: fab fa-linkedin
       href: https://www.linkedin.com/in/derekholliday/
 output:
   html_document:
