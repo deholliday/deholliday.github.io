@@ -1,6 +1,5 @@
 ---
 name: "Derek E. Holliday"
-title: NULL
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
