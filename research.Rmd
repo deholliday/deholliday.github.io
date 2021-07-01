@@ -29,6 +29,6 @@ Long-standing debates in political science center around differences in policy p
 
 <br>
 
-#### Donald On My Mind: National Considerations in Local Political Decisions (Working Paper)
+#### Donald On My Mind: National Considerations in Local Political Decisions (Working Paper, with Aaron Rudkin)
 
 Recent research suggests national-level politics inform local-level behavior. To what extent is such behavior driven by lack of local political information or strength of partisan identity? Even if voters have local information, is it more important in decision-making than information that cues issues of partisan national importance? Utilizing conjoint experiments, I identify the strength voters place on national versus local issue positions in federal and state/local elections.
