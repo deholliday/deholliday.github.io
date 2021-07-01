@@ -1,7 +1,6 @@
 ---
 name: "Derek E. Holliday"
 title: "Derek E. Holliday"
-pagetitle: " "
 ---
 
 <style>
