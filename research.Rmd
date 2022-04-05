@@ -11,7 +11,7 @@ title: "Holliday | Research"
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-#### <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_mpsa2020.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Text Analysis Approach</a> (Working Paper)
+#### <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_mpsa2022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Text Analysis Approach</a> (Working Paper)
 
 Recent research documents the "nationalization" of election results in the United States; national- and state-level vote shares for candidates of the same party are increasingly correlated and election winners tend to be copartisans. Does the nationalization of electoral results extend to campaign rhetoric itself? In this paper, I utilize quantitative text analysis techniques to determine the degree to which the rhetoric of gubernatorial candidates can or cannot be distinguished from the rhetoric of their national counterparts. The results show a more nuanced picture of nationalized rhetoric; in some forums, such as televised debates, gubernatorial speech is easily distinguishable from the speech of presidential candidates. In less structured formats, such as advertisements and social media, gubernatorial speech is still mostly relevant to state topics, but is slightly more likely to reference national topics. These results speak to the complex information environment voters may encounter in downballot contests.
 
