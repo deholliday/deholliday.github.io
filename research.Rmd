@@ -13,7 +13,9 @@ title: "Holliday | Research"
 
 ```{css, echo = F}
 body {
-  line-height: 1;
+  line-height: normal;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 li {
