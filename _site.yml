@@ -15,8 +15,8 @@ navbar:
       href: http://github.com/deholliday
     - icon: fab fa-twitter
       href: https://twitter.com/deholliday_ucla
-    - icon: fab fa-linkedin
-      href: https://www.linkedin.com/in/derekholliday/
+    - icon: fab fa-google
+      href: https://scholar.google.com/citations?user=XGtWgEwAAAAJ&hl=en
 output:
   html_document:
     theme: paper
