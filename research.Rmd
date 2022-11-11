@@ -33,7 +33,7 @@ Recent research contends state and local elections are driven by presidential co
 
 ### Publications
 
-1. Parental Hesitancy to Vaccinate Children Against COVID-19: Findings from a National Survey (with Rebecca Guerin, Arash Naeim, Ryan Baxter-King, Andrea Okun, and Lynn Vavreck). *Vaccine*. Forthcoming.
+1. <a href="https://doi.org/10.1016/j.vaccine.2022.11.001" target="_blank">Parental Hesitancy to Vaccinate Children Against COVID-19: Findings from a National Survey</a> (with Rebecca Guerin, Arash Naeim, Ryan Baxter-King, Andrea Okun, and Lynn Vavreck). *Vaccine*. Forthcoming.
 
 1. <a href="https://doi.org/10.1016/j.vaccine.2022.09.024" target="_blank">Strategies to increase the intention to get vaccinated against COVID-19: Findings from a nationally representative survey of US adults, October 2020 to October 2021</a> (with Arash Naeim, Rebecca Guerin, Ryan Baxter-King, Andrea Okun, Neil Wenger, Karen Sepucha, Annette Stanton, Aaron Rudkin, Alexander Rossell Hayes, and Lynn Vavreck). *Vaccine*. Forthcoming.
 
