@@ -39,7 +39,7 @@ Recent research contends state and local elections are driven by presidential co
 
 ### Under Review
 
-1. Racial and Economic Inequalities in City Service Delivery: Evidence from 42 Million 311 Calls (with Brian T. Hamel)
+1. Unequal Responsiveness in City Service Delivery: Evidence from 42 Million 311 Calls (with Brian T. Hamel, Revise and Resubmit at QJPS)
 
 2. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
 
