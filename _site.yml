@@ -17,6 +17,9 @@ navbar:
       href: https://twitter.com/deholliday_ucla
     - icon: fab fa-google
       href: https://scholar.google.com/citations?user=XGtWgEwAAAAJ&hl=en
+    - icon: fab fa-mastodon
+      href: https://fediscience.org/@derekholliday
+      rel: me
 output:
   html_document:
     theme: paper
