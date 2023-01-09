@@ -33,9 +33,9 @@ Recent research contends state and local elections are driven by presidential co
 
 ### Publications
 
-1. <a href="https://doi.org/10.1016/j.vaccine.2022.11.001" target="_blank">Parental intentions to vaccinate children against COVID-19: Findings from a U.S. National Survey</a> (with Rebecca Guerin, Arash Naeim, Ryan Baxter-King, Andrea Okun, and Lynn Vavreck). *Vaccine*. Forthcoming.
+1. Guerin, Rebecca J., Arash Naeim, Ryan Baxter-King, Andrea H. Okun, **Derek Holliday**, and Lynn Vavreck. 2022. <a href="https://doi.org/10.1016/j.vaccine.2022.11.001" target="_blank">"Parental intentions to vaccinate children against COVID-19: Findings from a U.S. National Survey."</a> *Vaccine* 41 (1): 101-108.
 
-1. <a href="https://doi.org/10.1016/j.vaccine.2022.09.024" target="_blank">Strategies to increase the intention to get vaccinated against COVID-19: Findings from a nationally representative survey of US adults, October 2020 to October 2021</a> (with Arash Naeim, Rebecca Guerin, Ryan Baxter-King, Andrea Okun, Neil Wenger, Karen Sepucha, Annette Stanton, Aaron Rudkin, Alexander Rossell Hayes, and Lynn Vavreck). *Vaccine*. Forthcoming.
+1. Naeim, Arash, Rebecca Guerin, Ryan Baxter-King, Andrea Okun, Neil Wenger, Karen Sepucha, Annette Stanton, Aaron Rudkin, **Derek Holliday**, Alexander Rossell Hayes, and Lynn Vavreck. 2022. <a href="https://doi.org/10.1016/j.vaccine.2022.09.024" target="_blank">"Strategies to increase the intention to get vaccinated against COVID-19: Findings from a nationally representative survey of US adults, October 2020 to October 2021."</a> *Vaccine* 40 (52): 7571-7578.
 
 ### Under Review
 
@@ -57,4 +57,4 @@ Recent research contends state and local elections are driven by presidential co
 
 ### Other Writing
 
-1. <a href="https://www.voterstudygroup.org/uploads/reports/Data/Nationscape-Methodology-Representative-Assessment-2021Dec.pdf" target="_blank">Democracy Fund + UCLA Nationscape Methodology and Representativeness Assessment</a> (with Tyler Reny, Alex Rossell Hayes, Aaron Rudkin, Chris Tausanovitch, and Lynn Vavreck). December 2021.
+1. **Holliday, Derek**, Tyler Reny, Alex Rossell Hayes, Aaron Rudkin, Chris Tausanovitch, and Lynn Vavreck. 2021. <a href="https://www.voterstudygroup.org/uploads/reports/Data/Nationscape-Methodology-Representative-Assessment-2021Dec.pdf" target="_blank">"Democracy Fund + UCLA Nationscape Methodology and Representativeness Assessment."</a>
