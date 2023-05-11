@@ -33,15 +33,15 @@ Recent research contends state and local elections are driven by presidential co
 
 ### Publications
 
-1. Guerin, Rebecca J., Arash Naeim, Ryan Baxter-King, Andrea H. Okun, **Derek Holliday**, and Lynn Vavreck. 2022. <a href="https://doi.org/10.1016/j.vaccine.2022.11.001" target="_blank">"Parental intentions to vaccinate children against COVID-19: Findings from a U.S. National Survey."</a> *Vaccine* 41 (1): 101-108.
+1. Unequal Responsiveness in City Service Delivery: Evidence from 42 Million 311 Calls (with Brian T. Hamel, Conditionally Accepted at *Quarterly Journal of Political Science*)
 
-1. Naeim, Arash, Rebecca Guerin, Ryan Baxter-King, Andrea Okun, Neil Wenger, Karen Sepucha, Annette Stanton, Aaron Rudkin, **Derek Holliday**, Alexander Rossell Hayes, and Lynn Vavreck. 2022. <a href="https://doi.org/10.1016/j.vaccine.2022.09.024" target="_blank">"Strategies to increase the intention to get vaccinated against COVID-19: Findings from a nationally representative survey of US adults, October 2020 to October 2021."</a> *Vaccine* 40 (52): 7571-7578.
+2. Guerin, Rebecca J., Arash Naeim, Ryan Baxter-King, Andrea H. Okun, **Derek Holliday**, and Lynn Vavreck. 2022. <a href="https://doi.org/10.1016/j.vaccine.2022.11.001" target="_blank">"Parental intentions to vaccinate children against COVID-19: Findings from a U.S. National Survey."</a> *Vaccine* 41 (1): 101-108.
+
+3. Naeim, Arash, Rebecca Guerin, Ryan Baxter-King, Andrea Okun, Neil Wenger, Karen Sepucha, Annette Stanton, Aaron Rudkin, **Derek Holliday**, Alexander Rossell Hayes, and Lynn Vavreck. 2022. <a href="https://doi.org/10.1016/j.vaccine.2022.09.024" target="_blank">"Strategies to increase the intention to get vaccinated against COVID-19: Findings from a nationally representative survey of US adults, October 2020 to October 2021."</a> *Vaccine* 40 (52): 7571-7578.
 
 ### Under Review
 
-1. Unequal Responsiveness in City Service Delivery: Evidence from 42 Million 311 Calls (with Brian T. Hamel, Conditionally Accepted at *QJPS*)
-
-2. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
+1. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
 
 ### Working Papers
 

@@ -11,7 +11,7 @@ title: "Derek E. Holliday"
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/derek_1.jpg" style="width:25%; margin-right: 20px" align="left">
+<img src="images/DSC_4866.jpeg" style="width:25%; margin-right: 20px" align="left">
 
 ```{css, echo = F}
 body {
