@@ -41,23 +41,23 @@ Recent research contends state and local elections are driven by presidential co
 
 ### Under Review
 
-1. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
-
-### Working Papers
-
-1. <a href="deholliday.github.io/pdfs/Holliday_Conjoint_Nationalization.pdf" target="_blank">D.C. On My Mind: National Considerations in Local Political Decisions</a> (Working Paper, with Aaron Rudkin)
+1. <a href="deholliday.github.io/pdfs/nationalization_conjoint_merged.pdf" target="_blank">D.C. On My Mind: National Considerations in Local Political Decisions</a> (with Aaron Rudkin)
 
     + APSA State Politics and Policy Section Best Paper Award (2022)
     + UCLA Swarr Prize for Best Unpublished Paper
     + Rapoport Doctoral Dissertation Grant
+
+2. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
+
+### Working Papers
     
-2. Rare and Bipartisan: Anti-Democratic Attitudes in the American Public (with Shanto Iyengar, Yphtach Lelkes, and Sean Westwood)
+1. Rare and Bipartisan: Anti-Democratic Attitudes in the American Public (with Shanto Iyengar, Yphtach Lelkes, and Sean Westwood)
 
-3. The Geography of Partisan Animosity (with Shanto Iyengar, Yphtach Lelkes, and Sean Westwood)
+2. The Geography of Partisan Animosity (with Shanto Iyengar, Yphtach Lelkes, and Sean Westwood)
 
-4. Income, Education and Policy Priorities (with Chris Tausanovitch)
+3. Income, Education and Policy Priorities (with Chris Tausanovitch)
 
-5. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
+4. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
 
 ### Other Writing
 
