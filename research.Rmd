@@ -33,7 +33,7 @@ Recent research contends state and local elections are driven by presidential co
 
 ### Publications
 
-1. <a href="deholliday.github.io/pdfs/311_qjps.pdf" target="_blank">Unequal Responsiveness in City Service Delivery: Evidence from 42 Million 311 Calls</a> (with Brian T. Hamel, Conditionally Accepted at *Quarterly Journal of Political Science*)
+1. <a href="deholliday.github.io/pdfs/311_qjps.pdf" target="_blank">Unequal Responsiveness in City Service Delivery: Evidence from 42 Million 311 Calls</a> (with Brian T. Hamel, Forthcoming at *Quarterly Journal of Political Science*)
 
 2. Guerin, Rebecca J., Arash Naeim, Ryan Baxter-King, Andrea H. Okun, **Derek Holliday**, and Lynn Vavreck. 2022. <a href="https://doi.org/10.1016/j.vaccine.2022.11.001" target="_blank">"Parental intentions to vaccinate children against COVID-19: Findings from a U.S. National Survey."</a> *Vaccine* 41 (1): 101-108.
 
