@@ -54,13 +54,17 @@ Recent research contends state and local elections are driven by presidential co
 
 4. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
 
-### Working Papers
+### Projects in Progress
     
-1. Angry and Divided: The Geography of Partisan Animosity in America (with Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood)
+1. Angry and Divided: The Geography of Partisan Animosity in America (Book manuscript, with Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood)
 
 2. Income, Education and Policy Priorities (with Chris Tausanovitch)
 
 3. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
+
+4. All Party in the USA? Partisan Forces in Local and Nonpartisan Contests
+
+5. Cable Networks and Political News, 1968-2022 (with Justin Grimmer, Shanto Iyengar, and Sean J. Westwood)
 
 ### Other Writing
 
