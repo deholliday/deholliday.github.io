@@ -19,9 +19,6 @@ navbar:
       href: https://bsky.app/profile/derekholliday.bsky.social
     - icon: fab fa-google
       href: https://scholar.google.com/citations?user=XGtWgEwAAAAJ&hl=en
-    - icon: fab fa-mastodon
-      href: https://fediscience.org/@derekholliday
-      rel: me
 output:
   html_document:
     theme: paper
