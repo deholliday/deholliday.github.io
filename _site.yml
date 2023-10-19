@@ -16,7 +16,7 @@ navbar:
     - icon: fab fa-twitter
       href: https://twitter.com/d_e_holliday
     - icon: fa-solid fa-square
-      href: https://bsky.app/profile/derekholliday.bsky.social
+      href: https://bsky.app/profile/derekholliday.com
     - icon: fab fa-google
       href: https://scholar.google.com/citations?user=XGtWgEwAAAAJ&hl=en
 output:
