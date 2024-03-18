@@ -33,7 +33,7 @@ Recent research contends state and local elections are driven by presidential co
 
 ### Publications
 
-1. Uncommon and Nonpartisan: Anti-Democratic Attitudes In The American Public (Provisionally Accepted, *Proceedings of the National Academy of Sciences*, with Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood)
+1. **Holliday, Derek**, Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood. 2024. <a href="https://www.pnas.org/doi/10.1073/pnas.2313013121" target="_blank">"Uncommon and nonpartisan: Antidemocratic attitudes in the American public."</a> *Proceedings of the National Academy of Sciences* 121 (13).
 
 2. <a href="deholliday.github.io/pdfs/311_qjps.pdf" target="_blank">Unequal Responsiveness in City Service Delivery: Evidence from 42 Million 311 Calls</a> (with Brian T. Hamel, Forthcoming at *Quarterly Journal of Political Science*)
 
