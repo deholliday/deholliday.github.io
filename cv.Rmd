@@ -10,6 +10,6 @@ title: "Holliday | CV"
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<object data="pdfs/Holliday_CV_web_v06112024.pdf" type="application/pdf" width="100%" height="1000">
-<embed src="pdfs/Holliday_CV_web_v06112024.pdf" type="application/pdf" width="100%" height="1000"/>
+<object data="pdfs/Holliday_CV_web_v06132024.pdf" type="application/pdf" width="100%" height="1000">
+<embed src="pdfs/Holliday_CV_web_v06132024.pdf" type="application/pdf" width="100%" height="1000"/>
 </object>
