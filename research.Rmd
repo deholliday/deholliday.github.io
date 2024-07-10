@@ -27,10 +27,6 @@ li:not(:last-child) {
 }
 ```
 
-### <a href="deholliday.github.io/pdfs/Holliday_JMP_v09012023.pdf" target="_blank">Job Market Paper: Is All Politics Presidential? Decomposing partisan patterns in U.S. election outcomes across offices, 1972-2020</a>
-
-Recent research contends state and local elections are driven by presidential contests, presenting correlations between presidential and down-ballot voting as evidence. However, this top-down mechanism of "nationalized" election results, which I call "presidentialization", is indistinguishable from other mechanisms, such as increasing partisan strength, using such measurement strategies. I propose an alternative theoretical framework in which I decompose election results into candidate specific, partisan, and idiosyncratic components, allowing me to compare mechanisms of nationalization. I apply this framework to presidential, senate, governor, and other statewide elections from 1972-2020, 476 statewide elections across 26 offices from 2016-2020, and all partisan down-ballot races in Maricopa County, Arizona from 2008-2020. While it is true that election results are increasingly similar, they appear connected more by partisanship than presidential voting. Presidential contests are among the most idiosyncratic; lower-salience elections have little variance. While it is reassuring elections for lower office do not appear determined by presidential candidates, the lack of alternative information to partisanship paints a troubling representational picture down-ballot.
-
 ### Publications
 
 1. **Holliday, Derek**, Yphtach Lelkes, and Sean J. Westwood. Provisionally Accepted. "Affective Polarization is Uniformly Distributed Across American States." *PNAS Nexus*.
@@ -38,6 +34,8 @@ Recent research contends state and local elections are driven by presidential co
 2. **Holliday, Derek**, Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood. 2024. <a href="https://www.pnas.org/doi/10.1073/pnas.2313013121" target="_blank">"Uncommon and nonpartisan: Antidemocratic attitudes in the American public."</a> *Proceedings of the National Academy of Sciences* 121 (13).
 
 3. Hamel, Brian and **Derek Holliday**. 2024 <a href="http://dx.doi.org/10.1561/100.00022089" target="_blank">"Unequal Responsiveness in City Service Delivery: Evidence from 42 Million 311 Calls."</a> *Quarterly Journal of Political Science* 19 (3): 243-274.
+
+    + Not Another Politics Podcast (UChicago Harris School of Public Policy): <a href="https://podcasts.apple.com/us/podcast/do-city-services-move-faster-for-affluent-and-white/id1496412542?i=1000661775943" target="_blank">"Do City Services Move Faster for Affluent and White Neighborhoods?"</a>
 
 4. Guerin, Rebecca J., Arash Naeim, Ryan Baxter-King, Andrea H. Okun, **Derek Holliday**, and Lynn Vavreck. 2022. <a href="https://doi.org/10.1016/j.vaccine.2022.11.001" target="_blank">"Parental intentions to vaccinate children against COVID-19: Findings from a U.S. National Survey."</a> *Vaccine* 41 (1): 101-108.
 
@@ -60,12 +58,14 @@ Recent research contends state and local elections are driven by presidential co
 5. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
 
 ### Projects in Progress
+
+1. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09012023.pdf" target="_blank">Is All Politics Presidential? Decomposing partisan patterns in U.S. election outcomes across offices, 1972-2020</a>
     
-1. Angry and Divided: The Geography of Partisan Animosity in America (Book manuscript, with Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood)
+2. Angry and Divided: The Geography of Partisan Animosity in America (Book manuscript, with Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood)
 
-2. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
+3. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
 
-3. All Party in the USA? Partisan Forces in Local and Nonpartisan Contests
+4. All Party in the USA? Partisan Forces in Local and Nonpartisan Contests
 
 
 ### Other Writing
