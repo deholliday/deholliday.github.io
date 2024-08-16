@@ -29,9 +29,9 @@ li:not(:last-child) {
 
 ### Publications
 
-1. Grimmer, Justin, **Derek Holliday**, Yphtach Lelkes, and Sean J. Westwood. Provisionally Accepted. <a href="https://osf.io/pe2zg/" target="_blank">"Who are the Election Skeptics? Evidence from the 2022 Midterm Elections."</a> *Election Law Journal*.
+1. Grimmer, Justin, **Derek Holliday**, Yphtach Lelkes, and Sean J. Westwood. Forthcoming. <a href="https://osf.io/pe2zg/" target="_blank">"Who are the Election Skeptics? Evidence from the 2022 Midterm Elections."</a> *Election Law Journal*.
 
-2. **Holliday, Derek**, Yphtach Lelkes, and Sean J. Westwood. Provisionally Accepted. "Affective Polarization is Uniformly Distributed Across American States." *PNAS Nexus*.
+2. **Holliday, Derek**, Yphtach Lelkes, and Sean J. Westwood. Forthcoming. "Affective Polarization is Uniformly Distributed Across American States." *PNAS Nexus*.
 
 3. **Holliday, Derek**, Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood. 2024. <a href="https://www.pnas.org/doi/10.1073/pnas.2313013121" target="_blank">"Uncommon and nonpartisan: Antidemocratic attitudes in the American public."</a> *Proceedings of the National Academy of Sciences* 121 (13).
 
