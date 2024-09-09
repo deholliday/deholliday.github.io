@@ -65,7 +65,7 @@ li:not(:last-child) {
 
 1. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09012023.pdf" target="_blank">Is All Politics Presidential? Decomposing partisan patterns in U.S. election outcomes across offices, 1972-2020</a>
 
-2. Amateurs: A (Mostly) Stable, Undesired, but Benign Presence in American Politics
+2. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09072024.pdf" target="_blank">Amateurs: A (Mostly) Stable, Undesired, but Benign Presence in American Politics</a> (Job Market Paper)
     
 3. Angry and Divided: The Geography of Partisan Animosity in America (Book manuscript, with Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood)
 
