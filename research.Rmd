@@ -66,12 +66,10 @@ li:not(:last-child) {
 1. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09012023.pdf" target="_blank">Is All Politics Presidential? Decomposing partisan patterns in U.S. election outcomes across offices, 1972-2020</a>
 
 2. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09102024.pdf" target="_blank">Amateurs: A (Mostly) Stable, Undesired, but Benign Presence in American Politics</a> (Job Market Paper)
-    
-3. Angry and Divided: The Geography of Partisan Animosity in America (Book manuscript, with Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood)
 
-4. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
+3. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
 
-5. All Party in the USA? Partisan Forces in Local and Nonpartisan Contests
+4. All Party in the USA? Partisan Forces in Local and Nonpartisan Contests
 
 
 ### Other Writing
