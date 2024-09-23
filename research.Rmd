@@ -31,7 +31,7 @@ li:not(:last-child) {
 
 1. Tausanovitch, Chris and **Derek Holliday**. Conditionally Accepted. "Income, Education, and Policies Priorities." *Political Science Research and Methods*.
 
-1. **Holliday, Derek**, Justin Grimmer, Yphtach Lelkes, and Sean J. Westwood. Forthcoming. <a href="https://osf.io/pe2zg/" target="_blank">"Who are the Election Skeptics? Evidence from the 2022 Midterm Elections."</a> *Election Law Journal*.
+1. **Holliday, Derek**, Justin Grimmer, Yphtach Lelkes, and Sean J. Westwood. Forthcoming. <a href="https://www.liebertpub.com/doi/abs/10.1089/elj.2024.0010" target="_blank">"Who are the Election Skeptics? Evidence from the 2022 Midterm Elections."</a> *Election Law Journal*.
 
 2. **Holliday, Derek**, Yphtach Lelkes, and Sean J. Westwood. Forthcoming. "Affective Polarization is Uniformly Distributed Across American States." *PNAS Nexus*.
 
