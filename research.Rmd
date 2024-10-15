@@ -35,7 +35,7 @@ li:not(:last-child) {
 
 3. **Holliday, Derek**, Justin Grimmer, Yphtach Lelkes, and Sean J. Westwood. Forthcoming. <a href="https://www.liebertpub.com/doi/abs/10.1089/elj.2024.0010" target="_blank">"Who are the Election Skeptics? Evidence from the 2022 Midterm Elections."</a> *Election Law Journal*.
 
-4. **Holliday, Derek**, Yphtach Lelkes, and Sean J. Westwood. Forthcoming. "Affective Polarization is Uniformly Distributed Across American States." *PNAS Nexus*.
+4. **Holliday, Derek**, Yphtach Lelkes, and Sean J. Westwood. 2024. <a href="https://doi.org/10.1093/pnasnexus/pgae310" target="_blank">"Affective Polarization is Uniformly Distributed Across American States."</a> *PNAS Nexus* 3 (10).
 
 5. **Holliday, Derek**, Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood. 2024. <a href="https://www.pnas.org/doi/10.1073/pnas.2313013121" target="_blank">"Uncommon and nonpartisan: Antidemocratic attitudes in the American public."</a> *Proceedings of the National Academy of Sciences* 121 (13).
 
