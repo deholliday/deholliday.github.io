@@ -31,7 +31,7 @@ li:not(:last-child) {
 
 1. **Holliday, Derek**, Yphtach Lelkes, and Sean J. Westwood. 2024. <a href="https://www.pnas.org/doi/10.1073/pnas.2414689121" target="_blank">"The July 2024 Trump Assassination Attempt was Followed by Lower In-Group Support for Partisan Violence and Increased Group Unity."</a> *Proceedings of the National Academy of Sciences* 121 (49).
 
-2. Tausanovitch, Chris and **Derek Holliday**. Forthcoming. "Income, Education, and Policy Priorities." *Political Science Research and Methods*.
+2. Tausanovitch, Chris and **Derek Holliday**. Forthcoming. <a href="https://doi.org/10.1017/psrm.2024.71" target="_blank">"Income, Education, and Policy Priorities."</a> *Political Science Research and Methods*.
 
 3. **Holliday, Derek**, Justin Grimmer, Yphtach Lelkes, and Sean J. Westwood. Forthcoming. <a href="https://www.liebertpub.com/doi/abs/10.1089/elj.2024.0010" target="_blank">"Who are the Election Skeptics? Evidence from the 2022 Midterm Elections."</a> *Election Law Journal*.
 
