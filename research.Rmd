@@ -57,11 +57,14 @@ li:not(:last-child) {
     + UCLA Swarr Prize for Best Unpublished Paper
     + Rapoport Doctoral Dissertation Grant
 
-2. Setting Evidentiary Standards for Solutions to Partisan Animosity: The Case of Bridging Interventions (with Shanto Iyengar, Yphtach Lelkes, and Sean J. Westwood)
+2. Why Depolarization is Hard: Evaluating Attempts to Decrease Partisan Animosity in America (with Yphtach Lelkes and Sean J. Westwood)
 
-3. <a href="https://osf.io/preprints/osf/qacmr" target="_blank">Anti-Democratic Condemnation has Limited and Inconsistent Effects on Vote Choice and Democratic Attitudes</a> (with Erin Walk, Yphtach Lelkes, and Sean J. Westwood) 
+3. <a href="https://osf.io/preprints/osf/qacmr" target="_blank">Anti-Democratic Condemnation has Limited and Inconsistent Effects on Vote Choice and Democratic Attitudes</a> (with Erin Walk, Yphtach Lelkes, and Sean J. Westwood)
 
-4. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
+4. A Republic, If You Like It: Policy Preferences Condition Perceptions of Democracy (with Sean J. Westwood)
+
+5. Skepticism and Common Ground in Political Reform: Navigating Public, Elite, and Partisan Divides (with Gavin Ploger, Yphtach Lelkes, and Sean J. Westwood)
+
 
 ### Projects in Progress
 
@@ -69,9 +72,13 @@ li:not(:last-child) {
 
 2. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09102024.pdf" target="_blank">Amateurs: A (Mostly) Stable, Undesired, but Benign Presence in American Politics</a> (Job Market Paper)
 
-3. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
+3. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
 
-4. All Party in the USA? Partisan Forces in Local and Nonpartisan Contests
+4. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
+
+5. All Party in the USA? Partisan Forces in Local and Nonpartisan Contests
+
+6. Shared Standards, Divided Verdicts: How Party Identity Shapes Perceptions of Domestic Terrorism (with Sean J. Westwood)
 
 
 ### Other Writing
