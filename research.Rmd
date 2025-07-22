@@ -63,22 +63,22 @@ li:not(:last-child) {
 
 4. A Republic, If You Like It: Policy Preferences Condition Perceptions of Democracy (with Sean J. Westwood)
 
-5. Skepticism and Common Ground in Political Reform: Navigating Public, Elite, and Partisan Divides (with Gavin Ploger, Yphtach Lelkes, and Sean J. Westwood)
+5. Skepticism and Common Ground in Political Reform: Navigating Public, Elite, and Partisan Divides (Revise and Resubmit at *Nature Communications*, with Gavin Ploger, Yphtach Lelkes, and Sean J. Westwood)
+
+6. Shared Standards, Divided Verdicts: How Party Identity Shapes Perceptions of Domestic Terrorism (with Sean J. Westwood)
 
 
 ### Projects in Progress
 
 1. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09012023.pdf" target="_blank">Is All Politics Presidential? Decomposing partisan patterns in U.S. election outcomes across offices, 1972-2020</a>
 
-2. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09102024.pdf" target="_blank">Amateurs: A (Mostly) Stable, Undesired, but Benign Presence in American Politics</a> (Job Market Paper)
+2. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09102024.pdf" target="_blank">Amateurs: A (Mostly) Stable, Undesired, but Benign Presence in American Politics</a>
 
 3. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
 
 4. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
 
 5. All Party in the USA? Partisan Forces in Local and Nonpartisan Contests
-
-6. Shared Standards, Divided Verdicts: How Party Identity Shapes Perceptions of Domestic Terrorism (with Sean J. Westwood)
 
 
 ### Other Writing
