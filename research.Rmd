@@ -29,7 +29,7 @@ li:not(:last-child) {
 
 ### Publications
 
-1. **Holliday, Derek**, Yphtach Lelkes, and Sean J. Westwood. Provisionally Accepted. "Why Depolarization is Hard: Evaluating Attempts to Decrease Partisan Animosity in America." *Proceedings of the National Academy of Sciences*
+1. **Holliday, Derek**, Yphtach Lelkes, and Sean J. Westwood. 2025. <a href="https://www.pnas.org/doi/10.1073/pnas.2508827122" target="_blank">Why Depolarization is Hard: Evaluating Attempts to Decrease Partisan Animosity in America."</a> *Proceedings of the National Academy of Sciences* 122 (39). 
 
 2. Tausanovitch, Chris and **Derek Holliday**. Forthcoming. <a href="https://doi.org/10.1017/psrm.2024.71" target="_blank">"Income, Education, and Policy Priorities."</a> *Political Science Research and Methods*.
 
