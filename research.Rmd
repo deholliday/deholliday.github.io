@@ -188,8 +188,6 @@ li:not(:last-child) {
 
 4. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
 
-5. All Party in the USA? Partisan Forces in Local and Nonpartisan Contests
-
 
 ### Other Writing
 
