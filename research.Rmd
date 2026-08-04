@@ -34,13 +34,24 @@ li:not(:last-child) {
 <table style="width:100%; border-collapse: collapse;">
   <tbody>
   <tr>
+      <td style="padding: 8px; vertical-align: middle;">11.</td>
+      <td style="padding: 8px; vertical-align: middle;">
+        Ploger, Gavin, <strong>Derek Holliday</strong>, Yphtach Lelkes, and Sean J. Westwood. Conditionally Accepted.
+        "Skepticism and Common Ground in Political Reform: Navigating Public, Elite, and Partisan Divides."
+        <em>Nature Communications</em>.
+      </td>
+    </tr>
+    <tr>
       <td style="padding: 8px; vertical-align: middle;">10.</td>
       <td style="padding: 8px; vertical-align: middle;">
-        <strong>Holliday, Derek</strong> and Aaron Rudkin. Conditionally Accepted. <a href="deholliday.github.io/pdfs/nationalization_conjoint_merged.pdf" target="_blank">"DC On My Mind: Voter Evaluations of Nationalized Policy Positions in State and Local Elections."</a> 
+        <strong>Holliday, Derek</strong> and Aaron Rudkin. Forthcoming. <a href="https://doi.org/10.1086/741831" target="_blank">"DC On My Mind: Voter Evaluations of Nationalized Policy Positions in State and Local Elections."</a>
         <em>Journal of Politics</em>.
         <ul style="margin-top: 4px; margin-bottom: 0; font-size: 0.95em;">
       <li>APSA State Politics and Policy Section Best Paper Award (2022).</li>
     </ul>
+      </td>
+      <td style="padding: 8px; text-align: right; vertical-align: middle;">
+        <div class="altmetric-embed" data-badge-type="donut" data-doi="10.1086/741831" style="transform: scale(0.8); transform-origin: right center;"></div>
       </td>
     </tr>
     <tr>
@@ -173,22 +184,24 @@ li:not(:last-child) {
 
 1. <a href="https://osf.io/preprints/osf/qacmr" target="_blank">Anti-Democratic Condemnation has Limited and Inconsistent Effects on Vote Choice and Democratic Attitudes</a> (Revise and Resubmit at *British Journal of Political Science* with Erin Walk, Yphtach Lelkes, and Sean J. Westwood)
 
-2. A Republic, If You Like It: Policy Preferences Condition Perceptions of Democracy (with Sean J. Westwood)
+2. America's Political Pulse, a database of democratic attitudes across all levels of U.S. government (Revise and Resubmit at *Scientific Data*, with Yphtach Lelkes, Ellie M. Mitchell, and Sean J. Westwood)
 
-3. Skepticism and Common Ground in Political Reform: Navigating Public, Elite, and Partisan Divides (Revise and Resubmit at *Nature Communications*, with Gavin Ploger, Yphtach Lelkes, and Sean J. Westwood)
+3. A Republic, If You Like It: Policy Preferences Condition Perceptions of Democracy (with Sean J. Westwood)
 
 4. Shared Standards, Divided Verdicts: How Party Identity Shapes Perceptions of Domestic Terrorism (with Sean J. Westwood)
 
 
 ### Projects in Progress
 
-1. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09012023.pdf" target="_blank">Is All Politics Presidential? Decomposing partisan patterns in U.S. election outcomes across offices, 1972-2020</a>
+1. <a href="https://osf.io/preprints/socarxiv/rvtsf_v1" target="_blank">Changing Partisanship Contributes Significantly to Rising Affective Polarization: Evidence from a Decomposition of Panel Data</a>
 
-2. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09102024.pdf" target="_blank">Amateurs: A (Mostly) Stable, Undesired, but Benign Presence in American Politics</a>
+2. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09012023.pdf" target="_blank">Is All Politics Presidential? Decomposing partisan patterns in U.S. election outcomes across offices, 1972-2020</a>
 
-3. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
+3. <a href="deholliday.github.io/pdfs/Holliday_JMP_v09102024.pdf" target="_blank">Amateurs: A (Mostly) Stable, Undesired, but Benign Presence in American Politics</a>
 
-4. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
+4. <a href="deholliday.github.io/pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
+
+5. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
 
 
 ### Other Writing
