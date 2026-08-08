@@ -1,0 +1,362 @@
+/*-- scss:defaults --*/
+
+// ===========================================================================
+// holliday-site.scss — Quarto website theme (Bootstrap 5)
+// ---------------------------------------------------------------------------
+// PNW fog-and-forest tokens; Fraunces display over Cabinet Grotesk text.
+// Website sibling of quarto/holliday.scss (RevealJS) — same tokens as
+// _brand.yml. Use: theme: [default, holliday-site.scss]
+// ===========================================================================
+
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap'); // OFL public fallback
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+// ---- tokens ----
+$hh-paper:       #F9F8F4;
+$hh-paper-2:     #F1F0EA;
+$hh-hairline:    #E4E2D9;
+$hh-mist:        #D9D6CB;
+$hh-ink:         #1F2B27;
+$hh-ink-muted:   #55645D;
+$hh-ink-faint:   #71807A;
+$hh-spruce:      #24352F;
+$hh-spruce-deep: #16211F;
+$hh-fir:         #4F6F60;
+$hh-moss:        #BCC8AA;
+$hh-larch:       #D9A84E;
+$hh-larch-text:  #8A6410;
+$hh-glacier:     #C9E6E1;
+$hh-agave:       #9C5744;
+$hh-link:        #17754B;
+$hh-link-hover:  #14472E;
+
+// ---- bootstrap variable mapping ----
+$body-bg: $hh-paper;
+$body-color: $hh-ink;
+$link-color: $hh-link;
+$link-decoration: underline;
+
+$font-family-sans-serif: "Cabinet Grotesk", "Hanken Grotesk", "Avenir Next",
+                         Avenir, -apple-system, "Helvetica Neue", Helvetica,
+                         Arial, sans-serif;
+$font-family-monospace: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+$headings-font-family: "Fraunces", "Iowan Old Style", Georgia, serif;
+$headings-font-weight: 600;
+$headings-color: $hh-spruce;
+$headings-line-height: 1.18;
+
+$font-size-root: 15.5px;
+$line-height-base: 1.45;
+
+$code-color: $hh-agave;
+$code-bg: $hh-paper-2;
+
+$navbar-bg: $hh-paper;
+$navbar-fg: $hh-ink-muted;
+$navbar-hl: $hh-link-hover;
+
+$footer-bg: $hh-paper;
+$footer-fg: $hh-ink-faint;
+
+$table-border-color: $hh-hairline;
+$border-radius: 6px;
+
+/*-- scss:rules --*/
+
+// ---- base ----
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: #EBDFC0; color: $hh-spruce-deep; }
+
+// content column: readable measure
+main.content, .page-columns main { font-size: 1rem; }
+
+// ---- headings ----
+h1, h2, h3, .title {
+  font-variation-settings: "SOFT" 40, "WONK" 0;
+  letter-spacing: 0.002em;
+}
+h1, .title { font-weight: 550; }
+h2 { font-size: 1.45rem; margin-top: 2.1em; margin-bottom: 0.55em;
+     border: none; padding-bottom: 0; }
+h3 { font-size: 1.15rem; }
+
+// page title with the short larch rule
+#title-block-header .title,
+.quarto-title .title { font-size: 1.9rem; }
+#title-block-header .title::after,
+main > header .title::after {
+  content: "";
+  display: block;
+  width: 3.2rem; height: 3px;
+  background: $hh-larch;
+  border-radius: 2px;
+  margin-top: 0.55rem;
+}
+#title-block-header { margin-block-end: 1.6rem; }
+
+// ---- links ----
+a {
+  text-decoration-color: rgba($hh-link, 0.4);
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+  transition: color 120ms ease, text-decoration-color 120ms ease;
+}
+a:hover, a:focus { color: $hh-link-hover; text-decoration-color: $hh-link-hover; }
+a:focus-visible {
+  outline: 2px solid $hh-larch;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+// ---- navbar: paper, hairline, larch hover underline ----
+.navbar {
+  background: $hh-paper;
+  border-bottom: 1px solid $hh-hairline;
+  box-shadow: none;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+
+  .navbar-brand, .navbar-title {
+    font-family: $headings-font-family;
+    font-weight: 600;
+    font-variation-settings: "SOFT" 40, "WONK" 0;
+    color: $hh-spruce;
+    font-size: 1.12rem;
+  }
+  .nav-link {
+    font-size: 0.92rem;
+    color: $hh-ink-muted;
+    text-decoration: none;
+    padding-bottom: 0.35rem;
+    box-shadow: inset 0 -2px 0 transparent;
+    transition: color 120ms ease, box-shadow 120ms ease;
+    &:hover, &:focus, &.active {
+      color: $hh-link-hover;
+      box-shadow: inset 0 -2px 0 $hh-larch;
+    }
+  }
+  .bi { font-size: 1.02rem; }
+}
+
+// ---- about page (trestles) ----
+div.about-entity {
+  .title::after { margin-inline: auto; }   // rule centers under the centered name
+  .subtitle, .about-subtitle {
+    font-family: $font-family-sans-serif;
+    font-size: 0.92rem;
+    color: $hh-ink-muted;
+    line-height: 1.4;
+    margin-top: 0.7rem;
+  }
+  .about-image { border: 1px solid $hh-hairline; }
+  .about-links { margin-top: 0.9rem; gap: 0.35rem; }
+  .about-link {
+    font-size: 0.85rem;
+    color: $hh-ink-muted !important;
+    border: 1px solid $hh-hairline !important;
+    border-radius: 999px;
+    padding: 0.28em 0.85em;
+    text-decoration: none;
+    transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+    .bi { color: $hh-fir; }
+    &:hover {
+      color: $hh-link-hover !important;
+      border-color: $hh-moss !important;
+      background: rgba($hh-moss, 0.14);
+    }
+  }
+}
+
+// on small screens quarto stacks the about links as six full-width buttons,
+// pushing the bio a whole viewport down — keep them as compact wrapped pills
+@media (max-width: 991.98px) {
+  div.quarto-about-trestles .about-entity .about-links {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.45rem !important;
+    padding: 0 0.5rem;
+    margin-bottom: 1.1rem;
+  }
+  div.quarto-about-trestles .about-entity .about-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    width: auto;
+    font-size: 0.8rem;
+    padding: 0.26em 0.7em !important;
+  }
+}
+
+// ---- tables (incl. raw-HTML publication tables) ----
+main table {
+  font-size: 0.92rem;
+  border-collapse: collapse;
+
+  thead th {
+    font-weight: 500;
+    border-top: 2px solid $hh-spruce;
+    border-bottom: 1px solid $hh-hairline;
+  }
+  tbody td { border-bottom: 1px solid $hh-hairline; color: $hh-ink; }
+  tbody tr:last-child td { border-bottom: 1px solid $hh-hairline; }
+}
+
+// ---- publications accordion ----
+.pub-list { margin: 0.4rem 0 2rem; border-top: 1px solid $hh-hairline; }
+
+details.pub, div.pub {
+  border-bottom: 1px solid $hh-hairline;
+  margin: 0;
+
+  summary {
+    list-style: none;
+    cursor: pointer;
+    &::-webkit-details-marker { display: none; }
+  }
+
+  .pub-row {
+    display: grid;
+    grid-template-columns: 2rem 1fr auto;
+    gap: 0.6rem;
+    align-items: center;
+    padding: 0.85rem 0.25rem;
+  }
+  .pub-num { color: $hh-ink-faint; font-size: 0.88rem; }
+  .pub-cite { font-size: 0.95rem; line-height: 1.5; }
+  .pub-side {
+    display: flex; flex-direction: column; align-items: flex-end;
+    gap: 0.3rem; min-width: 72px;
+  }
+
+  // chevron that signals the accordion
+  summary .pub-num::before {
+    content: "";
+    display: inline-block;
+    width: 0.42em; height: 0.42em;
+    margin-right: 0.55em;
+    border-right: 1.5px solid $hh-ink-faint;
+    border-bottom: 1.5px solid $hh-ink-faint;
+    transform: rotate(-45deg) translateY(-0.1em);
+    transition: transform 150ms ease;
+  }
+  &[open] summary .pub-num::before { transform: rotate(45deg); }
+  summary:hover { background: rgba($hh-moss, 0.10); }
+  summary:focus-visible {
+    outline: 2px solid $hh-larch; outline-offset: -2px; border-radius: 4px;
+  }
+
+  .pub-body {
+    padding: 0.2rem 0.25rem 1.3rem 2.6rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 1.3rem;
+    align-items: start;
+  }
+  .pub-abstract {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: $hh-ink-muted;
+    border-left: 3px solid $hh-moss;
+    padding-left: 0.9rem;
+    p { margin-bottom: 0.6rem; }
+    .pub-abstract-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em;
+      text-transform: uppercase; color: $hh-ink-faint;
+      display: block; margin-bottom: 0.3rem;
+    }
+  }
+  .pub-figure {
+    img {
+      max-width: 100%;
+      border: 1px solid $hh-hairline;
+      border-radius: 6px;
+      background: #fff;
+      padding: 6px;
+    }
+    figcaption {
+      font-size: 0.76rem; color: $hh-ink-faint; padding-top: 0.3rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .pub-body { grid-template-columns: 1fr; }
+  }
+}
+
+// scholar citation badge (injected by js/scholar-badges.js)
+.cite-badge {
+  font-size: 0.74rem;
+  color: $hh-link !important;
+  border: 1px solid rgba($hh-fir, 0.35);
+  border-radius: 999px;
+  padding: 0.1em 0.6em;
+  text-decoration: none;
+  white-space: nowrap;
+  &:hover { background: rgba($hh-moss, 0.18); border-color: $hh-fir; }
+}
+
+// ---- code ----
+code { font-variant-ligatures: none; padding: 0.1em 0.32em; border-radius: 4px; }
+pre {
+  background: $hh-paper-2;
+  border: 1px solid $hh-hairline;
+  border-radius: 8px;
+  line-height: 1.4;
+}
+
+// ---- blockquote ----
+blockquote {
+  font-family: $headings-font-family;
+  color: $hh-ink-muted;
+  border-left: 3px solid $hh-moss;
+  padding-left: 1.1rem;
+}
+
+// ---- right-hand TOC ----
+nav[role="doc-toc"] {
+  font-size: 0.85rem;
+  border-left: 1px solid $hh-hairline;
+  #toc-title, .toc-title {
+    font-family: $font-family-sans-serif;
+    font-size: 0.78rem; font-weight: 700;
+    letter-spacing: 0.04em; text-transform: uppercase;
+    color: $hh-ink-muted;
+  }
+  ul > li > a {
+    color: $hh-ink-muted;
+    border-left: 1px solid transparent;
+    &:hover { color: $hh-ink; }
+    &.active {
+      color: $hh-link;
+      font-weight: 500;
+      border-left: 2px solid $hh-fir;
+    }
+  }
+}
+
+// ---- CV embed ----
+.cv-embed {
+  width: 100%;
+  height: 85vh;
+  border: 1px solid $hh-hairline;
+  border-radius: 8px;
+  background: $hh-paper-2;
+}
+
+// ---- footer: treeline horizon ----
+.nav-footer {
+  border-top: 1px solid $hh-hairline;
+  padding-top: 1.1rem;
+  padding-bottom: 1.4rem;
+  font-size: 0.82rem;
+  color: $hh-ink-faint;
+
+  .footer-treeline { color: $hh-fir; opacity: 0.55; line-height: 0; }
+  .footer-note { margin-top: 0.35rem; }
+}

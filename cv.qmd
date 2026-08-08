@@ -1,0 +1,13 @@
+---
+title: "CV"
+---
+
+Download my CV [here](Holliday_CV.pdf){target="_blank"} or view below:
+
+```{=html}
+<object data="Holliday_CV.pdf" type="application/pdf" class="cv-embed">
+  <embed src="Holliday_CV.pdf" type="application/pdf"/>
+  <p>Your browser can't display the PDF inline —
+     <a href="Holliday_CV.pdf" target="_blank">download it instead</a>.</p>
+</object>
+```

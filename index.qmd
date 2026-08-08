@@ -1,0 +1,58 @@
+---
+title: "Derek E. Holliday"
+subtitle: "Assistant Professor of Political Science<br>The George Washington University"
+about:
+  template: trestles
+  image: images/DSC_4866.jpeg
+  image-shape: rounded
+  image-width: 14em
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:derek.holliday@gwu.edu"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/deholliday"
+    - icon: twitter-x
+      text: X
+      href: "https://twitter.com/d_e_holliday"
+    - icon: bluesky
+      text: Bluesky
+      href: "https://bsky.app/profile/derekholliday.com"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/derekholliday"
+    - icon: mortarboard-fill
+      text: Scholar
+      href: "https://scholar.google.com/citations?user=XGtWgEwAAAAJ&hl=en"
+---
+
+Hello! I am an Assistant Professor of American Politics in the Political
+Science Department at The George Washington University, where I am also an
+affiliate of the [Institute for Data, Democracy, and
+Politics](https://iddp.gwu.edu/). I received my PhD in Political Science at
+UCLA. My research interests lie at the intersection of political behavior and
+institutions, with a focus on representation. I am specifically interested in
+how partisan identification and animosity structures behavior across all
+levels of U.S. politics: national, state, and local. I utilize methods
+involving big data, machine learning, text-as-data, and survey experiments.
+
+My work is published in the *Proceedings of the National Academy of
+Sciences*, *The Journal of Politics*, *Quarterly Journal of Political
+Science*, *Political Science Research and Methods*, *PNAS Nexus*, and the
+*Election Law Journal*, and has been cited in the [New York
+Times](https://www.nytimes.com/2023/09/24/us/politics/trump-prosecutions-threats-violence.html).
+My dissertation and papers therein have been awarded the Christopher Z.
+Mooney Best Dissertation Prize and the SPPQ best paper award by APSA's State
+Politics and Policy section.
+
+My previous affiliations include the [Polarization Research
+Lab](https://polarizationresearchlab.org/) at Stanford University (as a
+postdoctoral fellow), the UCLA COVID-19 Health and Politics project (as a
+research analyst) and [Nationscape](https://www.voterstudygroup.org/nationscape)
+(as the project coordinator).
+
+Outside academia, you can find me trail/mountain/long distance running (from
+nothing in particular) and thanklessly rooting for the Seattle Mariners.
+
+Please contact me at **derek.holliday** AT **gwu** DOT **edu**

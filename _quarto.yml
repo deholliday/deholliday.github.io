@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+  resources:
+    - CNAME
+    - data/scholar.json
+    - js/scholar-badges.js
+
+website:
+  title: "Derek E. Holliday"
+  site-url: https://derekholliday.com
+  favicon: favicon.svg
+  google-analytics: "G-FPCYV6SXD6"
+  navbar:
+    title: "Derek E. Holliday"
+    left:
+      - text: "Research"
+        href: research.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - icon: envelope
+        href: "mailto:derek.holliday@gwu.edu"
+        aria-label: Email
+      - icon: github
+        href: "https://github.com/deholliday"
+        aria-label: GitHub
+      - icon: twitter-x
+        href: "https://twitter.com/d_e_holliday"
+        aria-label: X
+      - icon: bluesky
+        href: "https://bsky.app/profile/derekholliday.com"
+        aria-label: Bluesky
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/derekholliday"
+        aria-label: LinkedIn
+      - icon: mortarboard-fill
+        href: "https://scholar.google.com/citations?user=XGtWgEwAAAAJ&hl=en"
+        aria-label: Google Scholar
+  page-footer:
+    center: |
+      <div class="footer-treeline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 32" width="220" height="32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label=""><path d="M4 27 H216"/><path d="M110 7 L114.7 14.3 H112.7 L117.1 20.8 H114.3 L118.3 27 H101.7 L105.7 20.8 H102.9 L107.3 14.3 H105.3 Z"/><path d="M92 14 L95.1 18.8 H93.8 L96.6 23 H94.8 L97.4 27 H86.6 L89.2 23 H87.4 L90.2 18.8 H88.9 Z"/><path d="M127 15 L129.8 19.4 H128.6 L131.3 23.3 H129.6 L132 27 H122 L124.4 23.3 H122.7 L125.4 19.4 H124.2 Z"/></svg></div>
+      <div class="footer-note">© 2026 Derek E. Holliday</div>
+
+format:
+  html:
+    theme: [default, holliday-site.scss]
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
+    smooth-scroll: true
