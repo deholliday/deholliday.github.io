@@ -69,6 +69,7 @@ B.A., Political Science & Philosophy, 2016
 2. America's Political Pulse, a database of democratic attitudes across all levels of U.S. government (Revise and Resubmit at *Scientific Data*, with Yphtach Lelkes, Ellie M. Mitchell, and Sean J. Westwood)
 3. A Republic, If You Like It: Policy Preferences Condition Perceptions of Democracy (with Sean J. Westwood)
 4. Shared Standards, Divided Verdicts: How Party Identity Shapes Perceptions of Domestic Terrorism (with Sean J. Westwood)
+5. [Changing Partisanship Contributes Significantly to Rising Affective Polarization: Evidence from a Decomposition of Panel Data](https://osf.io/preprints/socarxiv/rvtsf_v1)
 
 # Other Writing
 

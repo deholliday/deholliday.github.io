@@ -77,18 +77,18 @@ toc-title: "On this page"
 
 4. Shared Standards, Divided Verdicts: How Party Identity Shapes Perceptions of Domestic Terrorism (with Sean J. Westwood)
 
+5. <a href="https://osf.io/preprints/socarxiv/rvtsf_v1" target="_blank" rel="noopener">Changing Partisanship Contributes Significantly to Rising Affective Polarization: Evidence from a Decomposition of Panel Data</a>
+
 
 ## Projects in Progress
 
-1. <a href="https://osf.io/preprints/socarxiv/rvtsf_v1" target="_blank" rel="noopener">Changing Partisanship Contributes Significantly to Rising Affective Polarization: Evidence from a Decomposition of Panel Data</a>
+1. <a href="pdfs/Holliday_JMP_v09012023.pdf" target="_blank" rel="noopener">Is All Politics Presidential? Decomposing partisan patterns in U.S. election outcomes across offices, 1972-2020</a>
 
-2. <a href="pdfs/Holliday_JMP_v09012023.pdf" target="_blank" rel="noopener">Is All Politics Presidential? Decomposing partisan patterns in U.S. election outcomes across offices, 1972-2020</a>
+2. <a href="pdfs/Holliday_JMP_v09102024.pdf" target="_blank" rel="noopener">Amateurs: A (Mostly) Stable, Undesired, but Benign Presence in American Politics</a>
 
-3. <a href="pdfs/Holliday_JMP_v09102024.pdf" target="_blank" rel="noopener">Amateurs: A (Mostly) Stable, Undesired, but Benign Presence in American Politics</a>
+3. <a href="pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank" rel="noopener">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
 
-4. <a href="pdfs/holliday_nationalizedrhetoric_09112022.pdf" target="_blank" rel="noopener">Nationalized Elections, Localized Campaigns? A Supervised Machine Learning Approach to Measuring Nationalized Political Rhetoric</a>
-
-5. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
+4. Endorsement Effects for COVID-19 Policy Support (with Ryan Baxter-King)
 
 
 ## Other Writing
