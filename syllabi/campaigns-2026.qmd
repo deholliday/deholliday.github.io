@@ -1,0 +1,322 @@
+---
+title: "Campaigns and Elections"
+coursenum: "PSC 2223-11"
+semester: "Spring 2026"
+meets: "Tuesday/Thursday 11:10am–12:25pm · Tompkins Hall 301"
+contact:
+  - text: "Instructor: Derek Holliday"
+  - text: "derek.holliday@gwu.edu"
+    href: "mailto:derek.holliday@gwu.edu"
+  - text: "derekholliday.com"
+    href: "https://derekholliday.com"
+  - text: "Office: Monroe Hall 471"
+  - text: "Office Hours: Tuesdays 1-3pm, and by appointment"
+format:
+  typst:
+    output-file: "syllabus_campaigns_2026.pdf"
+    template-partials:
+      - ../typst/syllabus/typst-template.typ
+      - ../typst/syllabus/typst-show.typ
+---
+
+```{=typst}
+#course-description[
+```
+
+*"Democracy is a system in which parties lose elections."* — Adam Przeworski
+
+This course will explore such a system: how candidates and parties come to lose (and occasionally win) elections, with an emphasis on congressional and presidential campaigns. We will explore macro-level determinants of electoral outcomes, as well as political behavior of individual Americans. Each week covers a different topic, with readings designed to highlight controversies or debates in the political science literature.
+
+You should expect this course to take 2–2.5 hours of class time a week and an average of 5–7 hours of work per week outside of class.
+
+```{=typst}
+]
+```
+
+# Learning Outcomes
+
+As a result of completing this course, students will:
+
+- Learn the fundamental factors that affect electoral outcomes in the United States
+- Be able to predict the likely outcome of future elections
+- Learn about the effects of elections on public policy and other political outcomes
+- Learn how social scientists ask and answer interesting questions about elections and political behavior
+- Become a savvy consumer of election information in perpetuity
+
+# Course Prerequisites
+
+PSC 1002: Introduction to American Politics and Government
+
+# Materials
+
+There is one required book for this course:
+
+- Sides, John, Daron Shaw, Matt Grossman, and Keena Lipsitz (2023). *Campaigns and Elections* (4th Edition, 2022 Election Update). New York: W.W. Norton.
+  - NOTE: the non-2022 Election Update for the 4th Edition is acceptable, but will have minor deviations from the main text.
+  - Readings referred to as C&E in the course schedule
+
+Other materials will be available on Blackboard via PDF and linked in the schedule below.
+
+# General Expectations and Policies
+
+**Attendance/Participation:** Your attendance and participation are mandatory (see below for specific evaluation criteria). Sign-in sheets will be present at the beginning of class.
+
+**Reading:** This class will have a lot of reading, much of it from leading quantitative scholars in political science. It is expected that some of the more technical components of the readings will be beyond your current level of understanding. That is okay! Just do your best and come to class with questions; as long as you understand the argument, we can fill in the details later.
+
+**Electronics:** Laptops, tablets, and smartphones are not allowed for use in class (those with accommodations requiring a laptop should register through DSS). Years of education research gives quality evidence that individual technology in the classroom produces worse learning outcomes. Leave them in your bags/on silent.
+
+**Late Work:** Late work will only be accepted for 48 hours after the due date and will be deducted 10 percentage points. Extensions must be requested well in advance of the due date and are not guaranteed to be granted. Please notify me of any last-minute emergencies.
+
+**Collaboration:** You are encouraged to talk to your classmates about this course and politics generally. When you submit your work, however, it should be the product of your own effort. If you collaborated with others, please give attribution accordingly.
+
+**Artificial Intelligence:** Artificial Intelligence (AI) technologies continue to be developed, advanced, and adopted in an increasing number of contexts and industries. While the technology undoubtedly has several industry benefits, both potential and realized, its role in the classroom appears conditional. This is a course about acquiring a reflexive intuition about elections; AI can only go so far in training that instinct. Many of the policies of this course are intentionally made to encourage independent thinking, but there will still be instances when AI usage may be possible or even useful. Therefore, I have the following expectations regarding AI usage in this class:
+
+- You MAY use AI to:
+  - Check spelling, grammar, or identify synonyms
+  - Generate ideas and identify sources
+  - Rephrase sentences/reorganize writing that you have already drafted
+  - Recommend tweaks to outlines you have drafted yourself
+- You may NOT use AI to:
+  - Write entire sentences/paragraphs without citation
+
+If I suspect AI usage outside the bounds of acceptable use, I will ask, and in some instances may request you come to office hours to check your comprehension of your own writing. The grade you receive will be proportionate to your own individual effort.
+
+**Changes:** This syllabus is subject to change with prior notification.
+
+# Evaluation
+
+- **Attendance/Participation (10%):** Attendance will be evaluated as the sum total of lectures attended, as evidenced by the sign-in sheet. Participation can take many forms: asking/responding to questions in class, discussing topics on the Blackboard discussion forums, coming to office hours, etc.
+- **Quizzes (25%):** Short, unannounced, in-class reading comprehension quizzes will be administered at a roughly weekly cadence. Full credit will be given upon reaching a certain score threshold (conditional on quiz length), partial credit otherwise. The lowest 4 grades are dropped. Make-up quizzes will not be administered.
+- **Campaign Deep Dive (20%):** This will be the "practical" portion of the course, where you will choose an ongoing electoral contest (congressional, state, or local), and become an expert on it over the course of the semester. There will be multiple check-in assignments throughout the semester. See separate assignment document for details.
+- **Midterm Exam (15%):** An in-person, pen-and-paper midterm exam will be administered, covering all material covered until that point.
+- **Final Exam (30%):** An in-person, pen-and-paper, cumulative final exam will be administered. The exam will have two halves covering the first and second portions of the class (pre/post midterm).
+  - *Progress Adjustment:* If you score higher on the first half than you did on the midterm, your midterm grade will be adjusted to be equal to halfway between the midterm and first-half final grade. For example, if you score a 70 on the midterm and a 90 on the first half of the final, your midterm grade will be changed to 80.
+
+**Grade Schema:** I will round up at 0.5 (e.g. 89.5 = A−).
+
+| Range | Grade | Range | Grade |
+|:------|:------|:------|:------|
+| 94–100% | A | 74–76% | C |
+| 90–93% | A− | 70–73% | C− |
+| 87–89% | B+ | 67–69% | D+ |
+| 84–86% | B | 64–66% | D |
+| 80–83% | B− | 60–63% | D− |
+| 77–79% | C+ | 59% or below | F |
+
+{{< include _university-policies.qmd >}}
+
+# Acknowledgement
+
+All classes are the product of collaboration, learning, and refinement. Special thanks to Nicole Bartels, Danny Hayes, Chris Tausanovitch, John Sides, Lynn Vavreck, and Chris Warshaw for their teaching materials used in the development of this course.
+
+# Course Schedule
+
+## Section 0: Introduction
+
+### Week 1: Course Introduction
+
+#### January 13 — Syllabus and Introductions
+
+- Read Syllabus and Campaign Deep Dive Assignment
+
+#### January 15 — Course Overview
+
+- C&E Chapter 1
+
+## Section 1: Rules and Regulations
+
+### Week 2: Rules of the (Electoral) Game
+
+#### January 20 — Voting Rules
+
+- C&E Chapter 2, pp. 26–41
+- Grimmer, Justin and Eitan Hersh (2024). "How Election Rules Affect Who Wins." *Journal of Legal Analysis*.
+- Read about at least one of the following topics:
+  - Voter ID: Hopkins, Dan (2018). "What We Know About Voter ID Laws." *FiveThirtyEight*.
+  - Automatic Voter Registration: Grumbach, Jake and Charlotte Hill (2019). "Automatic Voter Registration Boosts Turnout Among Young and Low Income People." *Data for Progress*.
+  - Absentee Voting: Yoder, Jesse et al. (2021). "How did absentee voting affect the 2020 U.S. election?" *Science Advances*.
+
+#### January 22 — Election Rules
+
+- C&E Chapter 2, pp. 41–61
+- Kenny, Christopher T. et al. (2023). "Widespread partisan gerrymandering mostly cancels nationally, but reduces electoral competition." *Proceedings of the National Academy of Sciences*.
+- Cohn, Nate (2025). "The Supreme Court Case That Could Hand the House to Republicans." *The New York Times*.
+
+### Week 3: Campaign Finance
+
+#### January 27 — Rules
+
+- C&E Chapter 4, pp. 94–117
+- One of the following (skim the other):
+  - Gilens, Martin, Shawn Patterson, Jr., and Pavielle Haines (2021). "Campaign Finance Regulations and Public Policy." *American Political Science Review*.
+  - Kalla, Joshua L. and David E. Broockman (2016). "Campaign Contributions Facilitate Access to Congressional Officials: A Randomized Field Experiment." *American Journal of Political Science*.
+
+#### January 29 — Reforms
+
+- C&E Chapter 4, pp. 117–127
+- Kilborn, Mitchell and Arjun Vishwanath (2022). "Public Money Talks Too: How Public Campaign Financing Degrades Representation." *American Journal of Political Science*.
+
+## Section 2: Campaigns and Candidates
+
+### Week 4: What do Campaigns Look Like?
+
+#### February 3 — National Campaigns
+
+- C&E Chapters 9 and 10
+
+#### February 5 — State and Local Campaigns
+
+- C&E Chapter 11
+
+```{=typst}
+#due[Friday, February 6 by 11:59pm Eastern — Deep-Dive Case Identification]
+```
+
+### Week 5: Campaign Strategy
+
+#### February 10 — What Can/Can't Campaigns Control?
+
+- Wlezien, Christopher (1995). "The Public as Thermostat: Dynamics of Preferences for Spending." *American Journal of Political Science*.
+- Read all articles from 1 of the following 3 topics:
+  - Economy: de Benedictis-Kessner, Justin and Christopher Warshaw (2020). "Accountability for the local economy at all levels of government in United States elections." *American Political Science Review*.
+  - War: Karol, David and Edward Miguel (2007). "The Electoral Cost of War: Iraq Casualties and the 2004 US Presidential Election." *Journal of Politics*.
+  - Health: Warshaw, Christopher, Lynn Vavreck, and Ryan Baxter-King (2020). "Fatalities from COVID-19 are reducing Americans' support for Republicans at every level of federal office." *Science Advances*.
+
+#### February 12 — Macro-Strategy
+
+- C&E Chapter 5, pp. 128–140
+- Grimmer, Justin, William Marble, and Cole Tanigawa-Lau (2025). "Measuring the Contribution of Voting Blocs to Election Outcomes." *Journal of Politics*.
+  - SKIM: Fraga, Bernard L., Yamil R. Velez, and Emily A. West (2025). "Reversion to the Mean, or Their Version of the Dream? Latino Voting in an Age of Populism." *American Political Science Review*.
+
+### Week 6: Campaign Tactics
+
+#### February 17 — Tactics: Televised Ads
+
+- C&E Chapter 5, pp. 140–161
+- Sides, John, Lynn Vavreck, and Christopher Warshaw (2022). "The Effect of Television Advertising in United States Elections." *American Political Science Review*.
+  - SKIM: Broockman, David E. et al. (2024). "Political practitioners poorly predict which messages persuade the public." *Proceedings of the National Academy of Sciences*.
+
+#### February 19 — Tactics: GOTV
+
+- Green, Donald P. and Alan S. Gerber (2024). *Get Out the Vote: How to Increase Voter Turnout*. Brookings Institution Press. Chapters 1 and 3 (skim 5–7 as interested)
+- Enos, Ryan and Anthony Fowler (2018). "Aggregate Effects of Large-Scale Campaigns on Voter Turnout." *Political Science Research and Methods*.
+
+### Week 7: What Makes a Good Candidate?
+
+#### February 24 — Incumbency and Quality
+
+- Jacobson, Gary C. (2015). "It's nothing personal: The decline of incumbency advantage in US House elections." *Journal of Politics*.
+- DeLuca, Kevin (2023). "Candidate Quality, Incumbency, and Election Outcomes in the United States." Working Paper.
+
+#### February 26 — Ideology and Policy
+
+- Hall, Andrew (2015). "What happens when extremists win primaries?" *American Political Science Review*.
+- Canes-Wrone, Brandice, David W. Brady, and John F. Cogan (2002). "Out of Step, Out of Office: Electoral Accountability and House Members' Voting." *American Political Science Review*.
+
+### Week 8: Catch-Up, Review, and Midterm
+
+#### March 3 — Catch-up/Review
+
+#### March 5 — MIDTERM EXAM
+
+### Week 9: SPRING BREAK! No Class March 10 and March 12
+
+## Section 3: Other Players in Campaigns
+
+### Week 10: Parties and Interest Groups
+
+#### March 17 — Parties and Campaigns
+
+- C&E Chapter 6
+- Bawn, Kathleen et al. (2012). "A Theory of Political Parties: Groups, Policy Demands and Nominations in American Politics." *Perspectives on Politics*.
+
+#### March 19 — Interest Groups
+
+- C&E Chapter 7
+- Foy-Sutherland, Gabriel (2026). "Working Hand in Hand: Interest Groups and Cooperative Dynamics in Campaigns." *Journal of Politics*.
+  - SKIM: Anzia, Sarah F. (2011). "Election Timing and the Electoral Influence of Interest Groups." *Journal of Politics*.
+
+```{=typst}
+#due[Friday, March 20 by 11:59pm Eastern — Deep-Dive Check-In \#1]
+```
+
+### Week 11: Media
+
+#### March 24 — Traditional/Broadcast Media
+
+- C&E Chapter 8
+- Iyengar, Shanto, Helmut Norpoth, and Kyu S. Hahn (2004). "Consumer Demand for Election News: The Horse Race Sells." *Journal of Politics*.
+  - SKIM: Peterson, Erik, Sharad Goel, and Shanto Iyengar (2021). "Partisan selective exposure in online news consumption: evidence from the 2016 presidential campaign." *Political Science Research and Methods*.
+
+#### March 26 — Social / "New" Media
+
+- Allcott, Hunt and Matthew Gentzkow (2017). "Social Media and Fake News in the 2016 Election." *Journal of Economic Perspectives*.
+  - SKIM: Moore, Ryan C., Ross Dahlke, and Jeffrey T. Hancock (2023). "Exposure to untrustworthy websites in the 2020 US election." *Nature Human Behavior*.
+- Guess, Andrew M. et al. (2023). "How do social media feed algorithms affect attitudes and behavior in an election campaign?" *Science*.
+  - SKIM: Allcott, Hunt et al. (2024). "The effects of Facebook and Instagram on the 2020 election: A deactivation experiment." *Proceedings of the National Academy of Sciences*.
+- Chmel, Kirill et al. (2025). "How social media creators shape mass politics: A field experiment during the 2024 US elections." Working Paper.
+
+## Section 4: Voters
+
+### Week 12: Participation and Identity
+
+#### March 31 — Participation
+
+- C&E Chapter 12
+- Enos, Ryan D., Anthony Fowler, and Lynn Vavreck (2014). "Increasing Inequality: The Effect of GOTV Mobilization on the Composition of the Electorate." *Journal of Politics*.
+
+#### April 2 — Demographics and Identity
+
+- Barber, Michael and John B. Holbein (2022). "400 million voting records show profound racial and geographic disparities in voter turnout in the United States." *PLOS One*.
+  - SKIM: Hajnal, Zoltan and Jessica Trounstine (2005). "Where Turnout Matters: The Consequences of Uneven Turnout in City Politics." *Journal of Politics*.
+- Grumbach, Jacob M. and Alexander Sahn (2020). "Race and Representation in Campaign Finance." *American Political Science Review*.
+
+### Week 13: Polling and Voter Choice
+
+#### April 7 — Polling and Forecasting
+
+- Jennings, Will and Christopher Wlezien (2018). "Election polling errors across time and space." *Nature Human Behavior*.
+  - SKIM: Graham, Matthew H., Hillygus, D. Sunshine, and Andrew Trexler (2024). "Misleading Polls in the Media: Does Survey Clickbait Have Social Consequences?" *Public Opinion Quarterly*.
+  - SKIM: Grimmer, Justin, Dean Knox, and Sean J. Westwood (2025). "Assessing the Reliability of Probabilistic US Presidential Election Forecasts May Take Decades." Working Paper.
+- Schaffner, Brian and Carline Soler (2024). ["Pollsters weighted more in 2024 — and it helped."](https://goodauthority.org/news/pollsters-weighted-more-in-2024-elections/) *Good Authority*.
+
+#### April 9 — Voter Choice
+
+- C&E Chapter 13
+- Fowler, Anthony et al. (2024). "Why Are You a Democrat? Studying the Origins of Party Identification and Partisan Animosity with Open-ended Survey Questions." Working Paper.
+  - SKIM: Tausanovitch, Chris and Derek Holliday (2026). "Income, Education, and Policy Priorities." *Political Science Research and Methods*.
+
+## Section 5: Consequences
+
+### Week 14: Policy and Representation
+
+#### April 14 — How Elections Affect Policy
+
+- Caughey, Devin, Yiqing Xu, and Christopher Warshaw (2017). "Incremental democracy: The policy effects of partisan control of state government." *Journal of Politics*.
+- Fowler, Anthony and Andrew B. Hall (2017). "Long-Term Consequences of Election Results." *British Journal of Political Science*.
+
+#### April 16 — Dyadic Representation
+
+- Erikson, Robert S. (2015). "Income Inequality and Policy Responsiveness." *Annual Review of Political Science*.
+  - SKIM: Anzia, Sarah F. and Christopher Berry (2011). "The Jackie (and Jill) Robinson Effect: Why Do Congresswomen Outperform Congressmen?" *American Journal of Political Science*.
+- Broockman, David E. and Christopher Skovron (2018). "Bias in Perceptions of Public Opinion among Political Elites." *American Political Science Review*.
+
+### Week 15: Institutions and Democracy
+
+#### April 21 — Alternative Systems of Elections
+
+- DeSilver, Drew et al. (2021). ["More U.S. locations experimenting with alternative voting systems."](https://www.pewresearch.org/short-reads/2021/06/29/more-u-s-locations-experimenting-with-alternative-voting-systems/) *Pew Research Center*.
+- Read ONE of the following (skim the other):
+  - RCV: Vishwanath, Arjun (2025). "The Effects of Ranked Choice Voting on Substantive Representation." *Quarterly Journal of Political Science*.
+  - Top 2 Primary: McGhee, Eric and Boris Shor (2017). "Has the Top Two Primary Elected More Moderates?" *Perspectives on Politics*.
+
+#### April 23 — Election Skepticism and Democracy
+
+- Lockhart, Mackenzie et al. (2024). "Voters distrust delayed election results, but a prebunking message inoculates against distrust." *PNAS Nexus*.
+- Holliday, Derek et al. (2024). "Uncommon and nonpartisan: Antidemocratic attitudes in the American public." *Proceedings of the National Academy of Sciences*.
+
+```{=typst}
+#due[Friday, April 24 by 11:59pm Eastern — Deep-Dive Check-In \#2]
+```
+
+**FINAL EXAM: Date TBD**

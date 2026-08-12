@@ -1,0 +1,41 @@
+---
+title: "Teaching"
+toc: true
+toc-title: "On this page"
+---
+
+## Graduate
+
+<div class="pub-list">
+
+<details class="pub course" data-title="Multilevel and Panel Models">
+<summary><div class="pub-row"><span class="pub-num"></span><div class="pub-cite"><strong>Multilevel and Panel Models</strong> <span class="course-code">PSC 8124</span></div><div class="pub-side"><span class="course-term">Fall 2025</span></div></div></summary>
+<div class="pub-body"><div class="pub-abstract"><span class="pub-abstract-label">Course Description</span><p>This course will prepare students to develop and utilize models deployed using multilevel and panel data. Such data involve several units of analysis nested within each other, requiring specialized tools for valid inference. For example, voters are nested within districts in a two-level hierarchical structure, or students within classrooms within schools in a three-level structure. Panel data are a specialized subset of hierarchical structures (concerning the nesting of units and time). We will focus on descriptive applications of multilevel models in the first half of the course, with the second oriented around causal inference.</p></div><div class="course-side"><ul class="course-facts"><li>Graduate seminar</li><li>The George Washington University</li><li>Taught: Fall 2025</li></ul><a class="syllabus-btn" href="syllabi/syllabus_multilevel_2025.pdf" target="_blank" rel="noopener">Syllabus (PDF)</a></div></div>
+</details>
+
+<details class="pub course" data-title="Topics in Empirical and Formal Political Analysis">
+<summary><div class="pub-row"><span class="pub-num"></span><div class="pub-cite"><strong>Topics in Empirical and Formal Political Analysis</strong> <span class="course-code">PSC 8185</span></div><div class="pub-side"><span class="course-term">Spring 2026</span></div></div></summary>
+<div class="pub-body"><div class="pub-abstract"><span class="pub-abstract-label">Course Description</span><p>Political science (and social science more generally) increasingly requires substantial technical skills to ingest and analyze large quantities of novel data. In this course, we will hone those technical skills through three unique but mutually reinforcing modules: (1) data management, (2) statistical learning, and (3) text-as-data. Our unifying theme will be that of measurement: how can we take noisy, messy inputs and transform them into meaningful indicators of theoretical concepts of interest.</p></div><div class="course-side"><ul class="course-facts"><li>Graduate seminar</li><li>The George Washington University</li><li>Taught: Spring 2026</li></ul><a class="syllabus-btn" href="syllabi/syllabus_topics_2026.pdf" target="_blank" rel="noopener">Syllabus (PDF)</a></div></div>
+</details>
+
+</div>
+
+## Undergraduate
+
+<div class="pub-list">
+
+<details class="pub course" data-title="Campaigns and Elections">
+<summary><div class="pub-row"><span class="pub-num"></span><div class="pub-cite"><strong>Campaigns and Elections</strong> <span class="course-code">PSC 2223</span></div><div class="pub-side"><span class="course-term">Spring 2026</span></div></div></summary>
+<div class="pub-body"><div class="pub-abstract"><span class="pub-abstract-label">Course Description</span><p class="course-epigraph">"Democracy is a system in which parties lose elections." — Adam Przeworski</p><p>This course will explore such a system: how candidates and parties come to lose (and occasionally win) elections, with an emphasis on congressional and presidential campaigns. We will explore macro-level determinants of electoral outcomes, as well as political behavior of individual Americans. Each week covers a different topic, with readings designed to highlight controversies or debates in the political science literature.</p></div><div class="course-side"><ul class="course-facts"><li>Undergraduate lecture</li><li>The George Washington University</li><li>Taught: Spring 2026</li></ul><a class="syllabus-btn" href="syllabi/syllabus_campaigns_2026.pdf" target="_blank" rel="noopener">Syllabus (PDF)</a></div></div>
+</details>
+
+<details class="pub course" data-title="Nationalization of U.S. Politics">
+<summary><div class="pub-row"><span class="pub-num"></span><div class="pub-cite"><strong>Nationalization of U.S. Politics</strong> <span class="course-code">PSC 3192W</span></div><div class="pub-side"><span class="course-term">Fall 2025</span></div></div></summary>
+<div class="pub-body"><div class="pub-abstract"><span class="pub-abstract-label">Course Description</span><p>This course will cover a topic of increasing salience in American politics: the "nationalization" of state and local political processes and behavior. What "nationalization" entails is still a topic of active debate, but descriptions typically suggest the phenomenon involves national-level political topics, debates, and divisions influencing institutions, attitudes, and behavior in lower levels of government. Such nationalization touches on core features of American politics: partisanship, federalism, representation, and more. In this course, we will engage with contemporary issues and research related to nationalization and its downstream consequences, and in doing so will gain a deeper understanding of American state and local government.</p></div><div class="course-side"><ul class="course-facts"><li>Undergraduate writing-intensive seminar</li><li>The George Washington University</li><li>Taught: Fall 2025</li></ul><a class="syllabus-btn" href="syllabi/syllabus_nationalization_2025.pdf" target="_blank" rel="noopener">Syllabus (PDF)</a></div></div>
+</details>
+
+</div>
+
+## Earlier Teaching
+
+At UCLA, I taught Representation in State and Local Politics (Summer 2020) as instructor of record, and served as a teaching assistant for courses including Bayesian Statistics and MCMC Methods for Social Science (Graduate), Methodologies in Communication Research, Collective Choice and Majority Rules, Introduction to American Politics, and Congress.

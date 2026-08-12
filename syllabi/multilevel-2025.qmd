@@ -1,0 +1,283 @@
+---
+title: "Multilevel and Panel Models"
+coursenum: "PSC 8124"
+semester: "Fall 2025"
+meets: "Monday 12:45–3:15pm · Lisner Hall 335"
+contact:
+  - text: "Instructor: Derek Holliday"
+  - text: "derek.holliday@gwu.edu"
+    href: "mailto:derek.holliday@gwu.edu"
+  - text: "derekholliday.com"
+    href: "https://derekholliday.com"
+  - text: "Office: Monroe Hall 471"
+  - text: "Office Hours: Tuesdays 2-3pm, and by appointment"
+format:
+  typst:
+    output-file: "syllabus_multilevel_2025.pdf"
+    template-partials:
+      - ../typst/syllabus/typst-template.typ
+      - ../typst/syllabus/typst-show.typ
+---
+
+```{=typst}
+#course-description[
+```
+
+This course will prepare students to develop and utilize models deployed using multilevel and panel data. Such data involve several units of analysis nested within each other, requiring specialized tools for valid inference. For example, voters are nested within districts in a two-level hierarchical structure, or students within classrooms within schools in a three-level structure. Panel data are a specialized subset of hierarchical structures (concerning the nesting of units and time). We will focus on descriptive applications of multilevel models in the first half of the course, with the second oriented around causal inference.
+
+You should expect this course to take 2–2.5 hours of class time a week and an average of 5–10 hours of work per week outside of class.
+
+```{=typst}
+]
+```
+
+# Learning Outcomes
+
+As a result of completing this course, students will:
+
+- Be adept at engaging and modeling with multilevel and panel data structures
+- Be conversant with modern deployments of such models, able to interpret and reproduce the resulting findings
+- Be able to produce paper-length, original research using the models discussed in class, capable of being published in a professional journal
+- Be able to write a dissertation chapter using the methods discussed in class
+
+# Course Prerequisites
+
+A course in linear regression (OLS) is required. You should have good working familiarity with the R programming language. While not required, knowledge of maximum likelihood estimation would be beneficial.
+
+# Materials
+
+The only book not readily available for free that is required for this course is the following:
+
+- Gelman, Andrew and Jennifer Hill. [*Data Analysis using Regression and Multilevel/Hierarchical Models*](https://www.cambridge.org/highereducation/books/data-analysis-using-regression-and-multilevel-hierarchical-models/32A29531C7FD730C3A68951A17C9D983#contents), volume 1. Cambridge University Press. (referred to as DA in syllabus)
+
+I would not suggest purchasing the hardcopy (overpriced), but you can find ebook versions for significantly cheaper.
+
+The other three texts we will draw from are available online for free:
+
+- Gelman, Andrew, Jennifer Hill, and Aki Vehtari. [*Regression and Other Stories*](https://avehtari.github.io/ROS-Examples/). Cambridge University Press, 2020 (Updated 2025). (referred to as ROS in syllabus)
+- Gelman, Andrew, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin. [*Bayesian Data Analysis*](https://sites.stat.columbia.edu/gelman/book/), 3rd Edition. Updated 2025. (referred to as BDA in syllabus)
+- Cunningham, Scott. [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). (referred to as Mixtape in syllabus)
+
+# Software
+
+We will be using R and a variety of R packages for analysis (you are welcome to use your preferred IDE, but I recommend RStudio for most folks, or Positron for those looking for a more data-science, general purpose IDE). We will also briefly use Stan for Bayesian analysis.
+
+# General Expectations
+
+- Class attendance and participation are mandatory (see below for specific evaluation criteria).
+- Collaboration is encouraged; please talk with each other when completing problem sets and projects. Ultimately, however, each student must write their own answer sets and complete their own paper.
+- Laptops are acceptable for use in class. Please only use them to consult with class readings or to take notes. Phone use is prohibited unless for medical or emergency purposes.
+- This syllabus is subject to change with prior notification.
+
+# Evaluation
+
+- **Attendance and Participation (10%):** Students are expected to attend class, ask questions, and actively participate in class discussions.
+  - *Cold Calling:* I will occasionally be cold-calling (calling upon specific students to answer questions regardless of whether you volunteer). I understand and empathize with the fact that this can be frightening if you have never experienced this sort of teaching. I want to emphasize that the goal of this is not to "catch you out," but rather to foster engaged, active, and equitable participation. Methods can be hard, and it can be easy to be left behind if you are hesitant to ask a question or participate. Therefore, answers to cold-called questions will never be used to formally evaluate you. If you don't know the answer, simply say "I don't know" or "Pass" and I will move on, no judgement.
+- **Problem Sets (50%):** Half of your course grade will be based on the successful completion of 5 problem sets (10% each), meant to be completed over the course of 2 or more weeks (due dates are given in the course schedule below). These problem sets will consist of both analytical and computational questions. Each problem set will be due prior to that day's lecture (12:45pm Eastern).
+  - *Problem Set Grading:* Grades will be determined considering completion, effort, and performance, using a 4-point scale:
+    - 4: Attempted all problems, with only 1–2 minor errors
+    - 3: Attempted all problems, with several minor errors
+    - 2: Attempted all problems, with many minor or at least one major error
+    - 1: Attempted all problems, with several major errors
+    - 0: Did not attempt all problems / numerous major mistakes
+  - *Format:* Please submit each problem set as a single, successfully compiled PDF, which includes the code (commented) and associated output for computational problems and intermediate steps for analytical ones. I suggest using either Quarto or RMarkdown.
+  - *Late Submissions:* Late submissions will not be accepted unless prior permission has been sought and received in advance of the deadline. Permission may or may not be granted, with or without penalty, depending on specific circumstances.
+  - *Collaboration:* You may (and should) work collaboratively to complete problem sets, but always write your own solutions (do not copy and paste someone else's code), and you are heavily encouraged to engage with the problem solo before workshopping with each other. If you collaborate, please note for which problems collaboration occurred, and with whom. Violation of this policy will be considered an academic integrity issue.
+- **Research Paper (40%):** This course is meant to prepare students to be producers of knowledge, not just consumers. Therefore, each student is expected (individually) to produce a final research paper using a method learned in class to tackle an empirical problem of their own substantive interest.
+  - Paper Requirements:
+    - *Length:* a main manuscript of 12–16 pages (double spaced, 12 point font, 1-inch margins). Appendices are optional and should be no longer than 20 pages if included. Figures and tables count toward the page requirements, and should be included in-text (not at the end of the manuscript).
+    - *Format:* Please include a brief introduction, and a description of your research question, data, empirical strategy, results, and conclusions. Do not include literature reviews or lengthy background/theoretical motivations… these are welcome in the appendix but will not count toward the page requirements.
+    - *Code:* You must submit a replication archive with your paper which includes data, code (commented), and associated outputs. I will run your code; replication failure will result in a significant penalty (depending on the scale of the issues).
+    - *Topics:* Any research topic is permitted so long as there is a clear research question and engagement with multilevel and/or panel data. Replication papers are accepted so long as the analysis goes significantly beyond the scope of the original research and applies methods learned in the course.
+  - The following milestones will be used as accountability mechanisms for progress on the paper:
+    - *September through October:* Think about possible topics, explore data, and run simple analyses on preliminary data. Look at articles and topics that we will cover, not just those that we already have. This will help you figure out whether a topic/method might be a good fit. Feel free to run ideas by me.
+    - *November 3:* Brief description of project due before class (less than 3 pages). You should have access to your data and have completed at least a descriptive analysis (crosstab, summary statistics, etc). Schedule a brief meeting with me to discuss (in person or on Zoom). You may be asked to revise and resubmit your proposal.
+    - *December 8:* Presentations (10%, or ¼ of the overall paper grade). These oral presentations will be ~12 minutes long (proportional to class size, will re-evaluate as enrollment becomes final). Slides should accompany the presentation, with the format similar to major professional academic conferences (e.g. APSA/MPSA). 5 minutes of Q&A will follow.
+    - *December 18:* Paper due. Final version (along with replication archive) due online by end of the day (11:59pm Eastern).
+
+# Artificial Intelligence Usage
+
+Generative Artificial Intelligence (GAI) technologies continue to be developed, advanced, and adopted in an increasing number of contexts and industries. While the technology undoubtedly has several industry benefits, both potential and realized, its role in the classroom appears conditional. This class is situated uniquely within this context; the primary goal is to prepare you to be active practitioners and interpreters of multilevel methodologies, which involves generating code and understanding the background processes called by such functions. To put it bluntly, this is an area where you can and will be "found out" quickly with only surface-level understandings of the models facilitated primarily by AI usage. Therefore, I have the following expectations regarding AI usage in this class:
+
+- You MAY use AI to:
+  - Check spelling, grammar, or identify synonyms
+  - Generate ideas and identify sources
+  - Rephrase sentences/reorganize writing that you have already drafted
+  - Recommend tweaks to outlines you have drafted yourself
+  - Generate snippets of example code that you integrate into your problem set answers
+- You may NOT use AI to:
+  - Write entire sentences/paragraphs without citation
+  - Generate complete answers to problem set questions
+
+{{< include _university-policies.qmd >}}
+
+# Course Schedule
+
+### August 25 — Course Introduction/Best Practices Review
+
+#### Tidyverse in R, writing clean code
+
+- [*R for Data Science*](https://r4ds.had.co.nz/), Chapters 1 and 5
+
+#### Visualizing Data
+
+- ROS Chapter 2
+- *R for Data Science*, Chapter 3
+- [panelview](https://yiqingxu.org/packages/panelview/reference/articles/tutorial.html)
+
+### September 1 — NO CLASS (Labor Day)
+
+### September 8 — Setting the Table: When Simple Regression Isn't Enough
+
+#### Transforming Data
+
+- ROS Chapter 12
+
+#### Interactions
+
+- ROS 16.4
+- SKIM: Hainmueller, Mummolo, and Xu (2019 PA). ["How Much Should We Trust Estimates from Multiplicative Interaction Models? Simple Tools to Improve Empirical Practice"](https://doi.org/10.1017/pan.2018.46)
+
+#### Pre/Post Treatment Covariates
+
+- ROS 19.6
+- [EGAP Covariate Adjustment](https://methods.egap.org/guides/analysis-procedures/covariates_en.html)
+- [Gelman Blog](https://statmodeling.stat.columbia.edu/2024/11/18/5-different-reasons-why-its-important-to-include-a-pre-treatment-variable-when-designing-and-analyzing-a-randomized-experiment/)
+
+#### Power
+
+- Arel-Bundock et al. (forthcoming, JOP). ["Quantitative Political Science Research is Greatly Underpowered"](https://doi.org/10.1086/734279)
+
+### September 15 — Generalized Linear Models and MLE
+
+- ROS Chapters 13–15
+- Gomila (2020 JEP). ["Logistic or Linear? Estimating Causal Effects of Experimental Treatments on Binary Outcomes Using Regression Analysis"](https://osf.io/preprints/psyarxiv/4gmbv_v1)
+- SKIM: [McCabe's Introduction to MLE](https://katherinetmccabe.com/mlebook/mle.html)
+
+### September 22 — Multi-Level Modeling: Partial Pooling
+
+```{=typst}
+#due[Problem Set \#1 due before lecture (12:45pm Eastern)]
+```
+
+- ROS 22.3–22.7
+- DA Chapters 11–12
+
+#### Applications
+
+*Skim these, but with closer attention to the methodology.*
+
+- Park, Gelman, and Bafumi (2004 PA). ["Bayesian multilevel estimation with poststratification: state-level estimates from national polls"](https://doi.org/10.1093/pan/mph024)
+- Lax and Phillips (2009 AJPS). ["How should we estimate public opinion in the states?"](https://doi.org/10.1111/j.1540-5907.2008.00360.x)
+
+#### Computation
+
+- [lme4](https://cran.r-project.org/package=lme4/vignettes/lmer.pdf)
+
+### September 29 — Multi-Level Modeling: Bayesian Deep-Dive
+
+- BDA Chapters 1 and 2 (OPTIONAL: Chapter 5… very technical)
+
+#### Applications
+
+- Much (2025/Forthcoming PRQ). ["Bayesian Multilevel Modeling for the Intersections of Race, Gender, and Class"](https://doi.org/10.1177/10659129251335233)
+
+#### Computation
+
+- [cmdstanr](https://mc-stan.org/cmdstanr/index.html)
+- [brms](https://paulbuerkner.com/brms/)
+
+### October 6 — Multi-Level Modeling: Advances and Complications
+
+```{=typst}
+#due[Problem Set \#2 due before lecture (12:45pm Eastern)]
+```
+
+#### Varying Slopes and Intercepts
+
+- DA Chapter 13 (OPTIONAL: BDA Chapter 15)
+- Ghitza and Gelman (2013 AJPS). ["Deep Interactions with MRP: Election Turnout and Voting Patterns among Small Electoral Subgroups"](https://doi.org/10.1111/ajps.12004)
+- OPTIONAL: Gelman et al. (2007 QJPS). ["Rich State, Poor State, Red State, Blue State: What's the Matter with Connecticut?"](http://dx.doi.org/10.1561/100.00006026)
+
+#### Machine Learning Regularization Methods
+
+- Broniecki, Leemann, and Wüest (2022 JOP). ["Improved multilevel regression with poststratification through machine learning (autoMrP)"](https://doi.org/10.1086/714777)
+- Goplerud (2023 APSR). ["Re-evaluating machine learning for MRP given the comparable performance of (deep) hierarchical models"](https://doi.org/10.1017/S0003055423000035)
+
+### October 13 — Multi-Level Modeling: Issues and Diagnostics
+
+- DA Chapter 24 (OPTIONAL: BDA Chapters 6 and 7… very technical)
+- [MCMC Diagnostics using bayesplot](https://mc-stan.org/bayesplot/articles/visual-mcmc-diagnostics.html)
+- Gelman (2006 Technometrics). ["Multilevel (hierarchical) modeling: What it can and cannot do"](https://sites.stat.columbia.edu/gelman/research/published/multi2.pdf)
+
+#### Fixed vs Random Effects
+
+- McNeish (2023 PsychMeth). ["A Practical Guide to Selecting and Blending Approaches for Clustered Data: Clustered Errors, Multilevel Models, and Fixed Effect Models"](https://osf.io/bq9am)
+- Clark and Linzer (2015 PSRM). ["Should I Use Fixed or Random Effects?"](https://doi.org/10.1017/psrm.2014.32)
+
+### October 20 — Introduction to Panel Data
+
+- [Mixtape Chapter 8](https://mixtape.scunning.com/08-panel_data)
+- Imai and Kim (2019 AJPS). ["When should we use unit fixed effects regression models for causal inference with longitudinal data?"](https://doi.org/10.1111/ajps.12417)
+- Hollenbach and Egerod (2024). ["How many is enough? Sample Size in Staggered Difference-in-Differences Designs"](https://doi.org/10.31219/osf.io/ac5ru)
+
+### October 27 — Difference in Differences and TWFE
+
+```{=typst}
+#due[Problem Set \#3 due before lecture (12:45pm Eastern)]
+```
+
+- [Mixtape Chapter 9.1–9.5](https://mixtape.scunning.com/09-difference_in_differences)
+- Baker et al. (2025 JEL). ["Difference-in-Differences Designs: A Practitioner's Guide"](https://arxiv.org/pdf/2503.13323) — READ ONLY pages 1–30
+- Chiu et al. (Forthcoming APSR). ["Causal Panel Analysis under Parallel Trends: Lessons from a Large Reanalysis Study"](https://doi.org/10.1017/S0003055425000243)
+
+#### Computation
+
+- [fect](https://yiqingxu.org/packages/fect/)
+- [fixest](https://lrberge.github.io/fixest/)
+
+### November 3 — Advanced DiD
+
+```{=typst}
+#due[Project Description due before class — schedule a meeting to discuss]
+```
+
+- [Mixtape Chapter 9.5–9.7](https://mixtape.scunning.com/09-difference_in_differences)
+- Baker et al. (2025 JEL). ["Difference-in-Differences Designs: A Practitioner's Guide"](https://arxiv.org/pdf/2503.13323) — pages 30–56
+- Roth et al. (2023 JoE). ["What's trending in difference-in-differences? A synthesis of the recent econometrics literature"](https://doi.org/10.1016/j.jeconom.2023.03.008)
+
+### November 10 — Synthetic Control + Counterfactuals
+
+```{=typst}
+#due[Problem Set \#4 due before lecture (12:45pm Eastern)]
+```
+
+- [Mixtape Chapter 10](https://mixtape.scunning.com/10-synthetic_control)
+  - SKIM: Abadie, Diamond, and Hainmueller (2010 JASA). ["Synthetic control methods for comparative case studies: Estimating the effect of California's tobacco control program"](https://doi.org/10.1198/jasa.2009.ap08746)
+- Xu (2017 PA). ["Generalized Synthetic Control Method: Causal Inference with Interactive Fixed Effects Models"](https://doi.org/10.1017/pan.2016.2)
+- Liu, Wang, and Xu (2024 AJPS). ["A practical guide to counterfactual estimators for causal inference with time-series cross-sectional data"](https://doi.org/10.1111/ajps.12723)
+
+### November 17 — Dynamic Panels + Continuous Treatments
+
+- Beck and Katz (2011 ARPS). ["Modeling Dynamics in Time-Series-Cross-Section Political Economy Data"](https://doi.org/10.1146/annurev-polisci-071510-103222)
+- De Boef and Keele (2008 AJPS). ["Taking Time Seriously"](https://doi.org/10.1111/j.1540-5907.2007.00307.x)
+- SKIM: Callaway, Goodman-Bacon, and Sant'Anna (2024 NBER). ["Difference-in-differences with a continuous treatment"](https://www.nber.org/papers/w32117)
+- SKIM: Haultfœuille, Hoderlein, and Sasaki (2023 JoE). ["Non-parametric difference-in-differences in repeated cross-sections with continuous treatments"](https://doi.org/10.1016/j.jeconom.2022.07.003)
+
+### November 24 — NO CLASS (Thanksgiving Break)
+
+### December 1 — Inference
+
+```{=typst}
+#due[Problem Set \#5 due before lecture (12:45pm Eastern)]
+```
+
+- Gelman (2023 JoE). ["What is a standard error?"](https://doi.org/10.1016/j.jeconom.2023.105516)
+- Abadie et al. (2022 QJE). ["When Should You Adjust Standard Errors for Clustering?"](https://doi.org/10.1093/qje/qjac038)
+- SKIM: Hazlett and Wainstein (2021 PA). ["Understanding, Choosing, and Unifying Multilevel and Fixed Effect Approaches"](https://doi.org/10.1017/pan.2020.41)
+
+### December 8 — Research Paper Presentations
+
+```{=typst}
+#due[Final paper (with replication archive) due December 18 by 11:59pm Eastern]
+```

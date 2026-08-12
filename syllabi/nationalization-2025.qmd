@@ -1,0 +1,211 @@
+---
+title: "Nationalization of U.S. Politics"
+coursenum: "PSC 3192W"
+semester: "Fall 2025"
+meets: "Wednesday 12:45–3:15pm · Monroe Hall (GOV) 101"
+contact:
+  - text: "Instructor: Derek Holliday"
+  - text: "derek.holliday@gwu.edu"
+    href: "mailto:derek.holliday@gwu.edu"
+  - text: "derekholliday.com"
+    href: "https://derekholliday.com"
+  - text: "Office: Monroe Hall 471"
+  - text: "Office Hours: Tuesdays 3-4pm, and by appointment"
+format:
+  typst:
+    output-file: "syllabus_nationalization_2025.pdf"
+    template-partials:
+      - ../typst/syllabus/typst-template.typ
+      - ../typst/syllabus/typst-show.typ
+---
+
+```{=typst}
+#course-description[
+```
+
+This course will cover a topic of increasing salience in American politics: the "nationalization" of state and local political processes and behavior. What "nationalization" entails is still a topic of active debate, but descriptions typically suggest the phenomenon involves national-level political topics, debates, and divisions influencing institutions, attitudes, and behavior in lower levels of government. Such nationalization touches on core features of American politics: partisanship, federalism, representation, and more. In this course, we will engage with contemporary issues and research related to nationalization and its downstream consequences, and in doing so will gain a deeper understanding of American state and local government.
+
+You should expect this course to take 2–2.5 hours of class time a week and an average of 5–7 hours of work per week outside of class.
+
+```{=typst}
+]
+```
+
+# Learning Outcomes
+
+As a result of completing this course, students will be able to:
+
+- Synthesize political concepts across levels of government
+- Engage with and critique cutting-edge social science research
+- Write more like a (good) political scientist
+- Apply research techniques used by social scientists to conduct your own research project
+- Gain writing and research skills that will be useful in your future career
+
+# Course Prerequisites
+
+This course is restricted to PSC & PSC policy juniors & seniors. While not formally required, it will be useful to have taken a research methods course prior to (or concurrently with) this one.
+
+# Materials
+
+There are two required books for this course:
+
+- Hopkins, Daniel J. (2018). [*The Increasingly United States: How and Why American Political Behavior Nationalized*](https://press.uchicago.edu/ucp/books/book/chicago/I/bo27596045.html). (referred to as IUS in the syllabus)
+- Carson, Jamie L., Joel Sievert, and Ryan D. Williamson (2023). [*Nationalized Politics: Evaluating Electoral Politics Across Time*](https://doi.org/10.1093/oso/9780197669655.001.0001). (available digitally for free via library login, referred to as NP in the syllabus)
+
+Other materials will be available on Blackboard via PDF and linked in the schedule below.
+
+# Software
+
+You will be required to obtain a CCAS Qualtrics license (a cloud-based survey application) to complete the survey assignment(s). Follow [the instructions here](https://libguides.gwu.edu/research_software/qualtrics#s-lg-box-32080346) to request free access through GWU IT, and please make sure to do so early in the course, as IT response times are not automatic.
+
+# General Expectations
+
+- Class attendance and participation are mandatory (see below for specific evaluation criteria).
+- This class will have a lot of reading, much of it from leading quantitative scholars in political science. As such, it is expected that some of the more technical components of the readings will be beyond your current level of understanding. That is okay! Just do your best and come to class with questions; as long as you understand the argument, we can fill in the details later.
+- Laptops are acceptable for use in class. Please only use them to consult with class readings or to take notes. Phone use is prohibited unless for medical or emergency purposes.
+- Late work will only be accepted for 48 hours after the due date and will be deducted a full letter grade penalty. Extensions must be requested well in advance of the due date and are not guaranteed to be granted. Please notify me of any last-minute emergencies.
+- This syllabus is subject to change with prior notification.
+
+# Evaluation
+
+Because this is a writing intensive course, almost all evaluation will be done on your writing, of which there will be a significant amount. But not all writing takes the form of an essay (nor should it). The evaluation of this class will reflect such heterogeneity through 4 different writing exercises. Details of all exercises are provided in brief below and provided in full in separate documents that will be distributed in class.
+
+- **In-Class Reflections/Attendance/Participation (20%):**
+  - The actual classroom portion of this course will typically take the form of a seminar (with occasional lectures sprinkled throughout). Your attendance and participation are expected and required.
+  - At the beginning of each class period, I will present you with a simple, open-ended prompt. We will spend the first 10 minutes completing written reflections on the prompt (handwritten or typed are both acceptable). These will kick off our discussions, and I'll collect the reflections during class (graded credit/no credit).
+- **Practical Response Papers (30%):**
+  - The topics of this class should be relevant to real-world, ongoing debates and policy issues. Therefore, you will be required to engage with real-world issues with this writing evaluation, which will be completed through the following:
+    - *2x Critical Applications:* For two separate academic articles from two separate weeks, you will submit a short (3–4 page) paper critically applying the findings of the paper to a news story (published in the last 2 years). Given the findings of the paper, is the news story surprising or expected? Where does the paper feel relevant, and where might the story be incomplete?
+    - *1x Field Report:* a short (3–4 page) report of a local government meeting you attended during the semester. What happened during the meeting? Did the meeting involve any topics we discussed in class? What appeared to be the divisions?
+  - You are responsible for completing these by the last day of class.
+- **Mock Survey (10%):**
+  - Writing is an act of communication, which requires interaction with and listening to others. In the social sciences, one of the most frequent forms of writing we do is in crafting and fielding surveys. Therefore, during the "public opinion" section of our course, you will be asked to create a functional survey (using Qualtrics) that complements your research question. Details will be provided in a separate document.
+- **Final Research Paper (40%):**
+  - The "meat" of this course will be a fully-fledged, independent research project completed over the full length of the semester, written as a traditional social science research paper. The paper will be evaluated in discrete parts, listed below:
+    - *October 3:* Topic Memo (5%)
+    - *October 24:* Literature Review (5%)
+    - *November 7:* Initial Findings (10%)
+    - *November 21:* First Draft (not graded)
+    - *December 3:* Lightning Talk (5%)
+    - *December 10:* Final Paper (15%)
+
+# Artificial Intelligence Usage
+
+Generative Artificial Intelligence (GAI) technologies continue to be developed, advanced, and adopted in an increasing number of contexts and industries. While the technology undoubtedly has several industry benefits, both potential and realized, its role in the classroom appears conditional. This is a writing-intensive course, and the expectation is that you will be doing the writing. In this course more than others, the act of writing is the act of learning. Therefore, I have the following expectations regarding AI usage in this class:
+
+- You MAY use AI to:
+  - Check spelling, grammar, or identify synonyms
+  - Generate ideas and identify sources
+  - Rephrase sentences/reorganize writing that you have already drafted
+  - Recommend tweaks to outlines you have drafted yourself
+  - Generate snippets of example code that you integrate into your research
+- You may NOT use AI to:
+  - Write entire sentences/paragraphs without citation
+  - Generate complete code for your research project
+
+{{< include _university-policies.qmd >}}
+
+# Course Schedule
+
+### August 27 — Course Introduction
+
+- IUS Chapter 1
+- NP Chapters 1 and 2
+
+### September 3 — Nationalization Past and Present
+
+- Amlani and Algara (2021 Electoral Studies). ["Partisanship & nationalization in American elections: Evidence from presidential, senatorial, & gubernatorial elections in the U.S. counties, 1872–2020"](https://doi.org/10.1016/j.electstud.2021.102387)
+- IUS Chapters 2 and 3
+- NP Chapter 3
+
+### September 10 — Federalism and State/Local Politics Crash Course
+
+**NO CLASS (APSA Conference).** A lecture video will be posted on Blackboard for you to watch during this class period. Readings below are still required.
+
+- Not Another Politics Podcast: ["Why Are Cities Hiring Lobbyists?"](https://effectivegov.uchicago.edu/podcast/why-are-cities-hiring-lobbyists)
+- Barber and Dynes (2023 AJPS). ["City-State Ideological Incongruence and Municipal Preemption"](https://doi.org/10.1111/ajps.12655)
+- Kogan, Lavertu, and Peskowitz (2016 AJPS). ["Performance Federalism and Local Democracy: Theory and Evidence from School Tax Referenda"](https://doi.org/10.1111/ajps.12184)
+
+### September 17 — Contemporary Examples
+
+- Conevska et al. (forthcoming APSR). ["How Partisan are U.S. Local Elections? Evidence from 2020 Cast Vote Records"](https://doi.org/10.31219/osf.io/db3mj_v2)
+- Shah, Weinschenk, and Yiannias (2024 SPPQ). ["Schoolhouse Rocked: Pandemic Politics and the Nationalization of School Board Elections"](https://doi.org/10.1017/spq.2023.28)
+- NP Chapter 8
+
+### September 24 — Geography and Place
+
+- Brown and Enos (2021 Nature HB). ["The measurement of partisan sorting for 180 million voters"](https://doi.org/10.1038/s41562-021-01066-z)
+- IUS Chapters 5 and 8
+
+### October 1 — Research Paper Meetings
+
+```{=typst}
+#due[Topic Memo due October 3 by 5pm]
+```
+
+- IUS Chapter 4
+
+### October 8 — Policy and Ideology (+ Qualtrics Demonstration)
+
+- Orr and Huber (2020 AJPS). ["The Policy Basis of Measured Partisan Animosity in the United States"](https://doi.org/10.1111/ajps.12498)
+- Holliday and Rudkin (2025). "D.C. On My Mind: National Considerations in State and Local Political Decisions" — see Blackboard for paper
+- Anzia (2021). ["Party and Ideology in American Local Government: An Appraisal"](https://doi.org/10.1146/annurev-polisci-041719-102131)
+
+### October 15 — Affect and Social Identity
+
+```{=typst}
+#due[Mock Survey due October 22 by 5pm]
+```
+
+- Trujillo and Crowley (2022 PolGeo). ["Symbolic versus material concerns of rural consciousness in the United States"](https://doi.org/10.1016/j.polgeo.2022.102658)
+- Iyengar et al. (2019 ARPS). ["The Origins and Consequences of Affective Polarization in the United States"](https://doi.org/10.1146/annurev-polisci-051117-073034)
+  - Optional: Not Another Politics Podcast, ["Is Polarization Pushing Us To Hate Each Other?"](https://effectivegov.uchicago.edu/podcast/is-polarization-pushing-us-to-hate-each-other)
+- The Science of Politics Podcast: ["When partisanship forms our identity"](https://www.niskanencenter.org/when-partisanship-forms-our-identity/)
+
+### October 22 — Information
+
+```{=typst}
+#due[Literature Review due October 27 by 5pm]
+```
+
+- Moskowitz (2021 APSR). ["Local News, Information, and the Nationalization of U.S. Elections"](https://doi.org/10.1017/S0003055420000829)
+  - Optional: Not Another Politics Podcast, ["Nationalized Elections, the End of Local News, and Government Accountability"](https://effectivegov.uchicago.edu/podcast/nationalized-elections-the-end-of-local-news-and-government-accountability)
+- Martin and McCrain (2019 APSR). ["Local News and National Politics"](https://doi.org/10.1017/S0003055418000965)
+- IUS Chapter 9
+
+### October 29 — Gerrymandering and Voting
+
+- Kenny et al. (2023 PNAS). ["Widespread partisan gerrymandering mostly cancels nationally, but reduces electoral competition"](https://doi.org/10.1073/pnas.2217322120)
+- Grumbach (2023 APSR). ["Laboratories of Democratic Backsliding"](https://doi.org/10.1017/S0003055422000934)
+  - Response (required reading): Hopkins (2023 PSQ). ["'Laboratories of Democratic Backsliding' and the Case Against Federalism"](https://doi.org/10.1093/psquar/qqad044)
+
+### November 5 — Research Paper Meetings
+
+```{=typst}
+#due[Initial Findings due November 7 by 5pm]
+```
+
+- IUS Chapter 10
+
+### November 12 — Political Institutions
+
+- Butler and Sutherland (2023 JOP). ["Have State Policy Agendas Become More Nationalized?"](https://doi.org/10.1086/720792)
+- Carreri, Payson, and Thompson (2025). ["When Progressives Took Power: The Limited Economic Effects of Municipal Reform in U.S. Cities"](https://www.mariacarreri.com/s/CarreriPaysonThompson_MunicipalReform_July2025.pdf)
+
+### November 19 — Democracy and Representation
+
+```{=typst}
+#due[First Draft due November 21 by 5pm]
+```
+
+- Reckhow et al. (2017 UAR). ["Outsiders with Deep Pockets: The Nationalization of Local School Board Elections"](https://doi.org/10.1177/1078087416663004)
+- Warshaw (2019 ARPS). ["Local Elections and Representation in the United States"](https://doi.org/10.1146/annurev-polisci-050317-071108)
+  - Optional: Beach et al. (2024 AEJ: Econ Policy). ["Racial and Ethnic Representation in Local Government"](https://doi.org/10.1257/pol.20200430)
+
+### November 26 — NO CLASS (Thanksgiving Break)
+
+### December 3 — Lightning Talks
+
+```{=typst}
+#due[Final paper due December 10 at 5pm]
+```

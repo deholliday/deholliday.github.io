@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Multilevel and Panel Models PSC 8124\n\n\nFall 2025\n\n\n\n\n\nCourse Description\n\nThis course will prepare students to develop and utilize models deployed using multilevel and panel data. Such data involve several units of analysis nested within each other, requiring specialized tools for valid inference. For example, voters are nested within districts in a two-level hierarchical structure, or students within classrooms within schools in a three-level structure. Panel data are a specialized subset of hierarchical structures (concerning the nesting of units and time). We will focus on descriptive applications of multilevel models in the first half of the course, with the second oriented around causal inference.\n\n\n\n\n\nGraduate seminar\n\n\nThe George Washington University\n\n\nTaught: Fall 2025\n\n\nSyllabus (PDF)\n\n\n\n\n\n\n\n\nTopics in Empirical and Formal Political Analysis PSC 8185\n\n\nSpring 2026\n\n\n\n\n\nCourse Description\n\nPolitical science (and social science more generally) increasingly requires substantial technical skills to ingest and analyze large quantities of novel data. In this course, we will hone those technical skills through three unique but mutually reinforcing modules: (1) data management, (2) statistical learning, and (3) text-as-data. Our unifying theme will be that of measurement: how can we take noisy, messy inputs and transform them into meaningful indicators of theoretical concepts of interest.\n\n\n\n\n\nGraduate seminar\n\n\nThe George Washington University\n\n\nTaught: Spring 2026\n\n\nSyllabus (PDF)"
+  },
+  {
+    "objectID": "teaching.html#graduate",
+    "href": "teaching.html#graduate",
+    "title": "Teaching",
+    "section": "",
+    "text": "Multilevel and Panel Models PSC 8124\n\n\nFall 2025\n\n\n\n\n\nCourse Description\n\nThis course will prepare students to develop and utilize models deployed using multilevel and panel data. Such data involve several units of analysis nested within each other, requiring specialized tools for valid inference. For example, voters are nested within districts in a two-level hierarchical structure, or students within classrooms within schools in a three-level structure. Panel data are a specialized subset of hierarchical structures (concerning the nesting of units and time). We will focus on descriptive applications of multilevel models in the first half of the course, with the second oriented around causal inference.\n\n\n\n\n\nGraduate seminar\n\n\nThe George Washington University\n\n\nTaught: Fall 2025\n\n\nSyllabus (PDF)\n\n\n\n\n\n\n\n\nTopics in Empirical and Formal Political Analysis PSC 8185\n\n\nSpring 2026\n\n\n\n\n\nCourse Description\n\nPolitical science (and social science more generally) increasingly requires substantial technical skills to ingest and analyze large quantities of novel data. In this course, we will hone those technical skills through three unique but mutually reinforcing modules: (1) data management, (2) statistical learning, and (3) text-as-data. Our unifying theme will be that of measurement: how can we take noisy, messy inputs and transform them into meaningful indicators of theoretical concepts of interest.\n\n\n\n\n\nGraduate seminar\n\n\nThe George Washington University\n\n\nTaught: Spring 2026\n\n\nSyllabus (PDF)"
+  },
+  {
+    "objectID": "teaching.html#undergraduate",
+    "href": "teaching.html#undergraduate",
+    "title": "Teaching",
+    "section": "Undergraduate",
+    "text": "Undergraduate\n\n\n\n\n\n\nCampaigns and Elections PSC 2223\n\n\nSpring 2026\n\n\n\n\n\nCourse Description\n\n“Democracy is a system in which parties lose elections.” — Adam Przeworski\n\n\nThis course will explore such a system: how candidates and parties come to lose (and occasionally win) elections, with an emphasis on congressional and presidential campaigns. We will explore macro-level determinants of electoral outcomes, as well as political behavior of individual Americans. Each week covers a different topic, with readings designed to highlight controversies or debates in the political science literature.\n\n\n\n\n\nUndergraduate lecture\n\n\nThe George Washington University\n\n\nTaught: Spring 2026\n\n\nSyllabus (PDF)\n\n\n\n\n\n\n\n\nNationalization of U.S. Politics PSC 3192W\n\n\nFall 2025\n\n\n\n\n\nCourse Description\n\nThis course will cover a topic of increasing salience in American politics: the “nationalization” of state and local political processes and behavior. What “nationalization” entails is still a topic of active debate, but descriptions typically suggest the phenomenon involves national-level political topics, debates, and divisions influencing institutions, attitudes, and behavior in lower levels of government. Such nationalization touches on core features of American politics: partisanship, federalism, representation, and more. In this course, we will engage with contemporary issues and research related to nationalization and its downstream consequences, and in doing so will gain a deeper understanding of American state and local government.\n\n\n\n\n\nUndergraduate writing-intensive seminar\n\n\nThe George Washington University\n\n\nTaught: Fall 2025\n\n\nSyllabus (PDF)"
+  },
+  {
+    "objectID": "teaching.html#earlier-teaching",
+    "href": "teaching.html#earlier-teaching",
+    "title": "Teaching",
+    "section": "Earlier Teaching",
+    "text": "Earlier Teaching\nAt UCLA, I taught Representation in State and Local Politics (Summer 2020) as instructor of record, and served as a teaching assistant for courses including Bayesian Statistics and MCMC Methods for Social Science (Graduate), Methodologies in Communication Research, Collective Choice and Majority Rules, Introduction to American Politics, and Congress."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Derek E. Holliday",
+    "section": "",
+    "text": "Hello! I am an Assistant Professor of American Politics in the Political Science Department at The George Washington University, where I am also an affiliate of the Institute for Data, Democracy, and Politics. I received my PhD in Political Science at UCLA. My research interests lie at the intersection of political behavior and institutions, with a focus on representation. I am specifically interested in how partisan identification and animosity structures behavior across all levels of U.S. politics: national, state, and local. I utilize methods involving big data, machine learning, text-as-data, and survey experiments.\nMy work is published in the Proceedings of the National Academy of Sciences, The Journal of Politics, Quarterly Journal of Political Science, Political Science Research and Methods, PNAS Nexus, and the Election Law Journal, and has been cited in the New York Times. My dissertation and papers therein have been awarded the Christopher Z. Mooney Best Dissertation Prize and the SPPQ best paper award by APSA’s State Politics and Policy section.\nMy previous affiliations include the Polarization Research Lab at Stanford University (as a postdoctoral fellow), the UCLA COVID-19 Health and Politics project (as a research analyst) and Nationscape (as the project coordinator).\nOutside academia, you can find me trail/mountain/long distance running (from nothing in particular) and thanklessly rooting for the Seattle Mariners.\nPlease contact me at derek.holliday AT gwu DOT edu"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download my CV here or view below:\n\n  \n  Your browser can't display the PDF inline —\n     download it instead."
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -33,19 +75,5 @@
     "title": "Research",
     "section": "Other Writing",
     "text": "Other Writing\n\nHolliday, Derek, Tyler Reny, Alex Rossell Hayes, Aaron Rudkin, Chris Tausanovitch, and Lynn Vavreck. 2021. “Democracy Fund + UCLA Nationscape Methodology and Representativeness Assessment.”"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "Download my CV here or view below:\n\n  \n  Your browser can't display the PDF inline —\n     download it instead."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Derek E. Holliday",
-    "section": "",
-    "text": "Hello! I am an Assistant Professor of American Politics in the Political Science Department at The George Washington University, where I am also an affiliate of the Institute for Data, Democracy, and Politics. I received my PhD in Political Science at UCLA. My research interests lie at the intersection of political behavior and institutions, with a focus on representation. I am specifically interested in how partisan identification and animosity structures behavior across all levels of U.S. politics: national, state, and local. I utilize methods involving big data, machine learning, text-as-data, and survey experiments.\nMy work is published in the Proceedings of the National Academy of Sciences, The Journal of Politics, Quarterly Journal of Political Science, Political Science Research and Methods, PNAS Nexus, and the Election Law Journal, and has been cited in the New York Times. My dissertation and papers therein have been awarded the Christopher Z. Mooney Best Dissertation Prize and the SPPQ best paper award by APSA’s State Politics and Policy section.\nMy previous affiliations include the Polarization Research Lab at Stanford University (as a postdoctoral fellow), the UCLA COVID-19 Health and Politics project (as a research analyst) and Nationscape (as the project coordinator).\nOutside academia, you can find me trail/mountain/long distance running (from nothing in particular) and thanklessly rooting for the Seattle Mariners.\nPlease contact me at derek.holliday AT gwu DOT edu"
   }
 ]

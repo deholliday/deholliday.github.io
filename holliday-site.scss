@@ -289,6 +289,58 @@ details.pub, div.pub {
   }
 }
 
+// ---- teaching accordion (extends the publications accordion) ----
+details.course {
+  .course-code {
+    color: $hh-ink-faint;
+    font-size: 0.85rem;
+    margin-left: 0.4rem;
+    white-space: nowrap;
+  }
+  .course-term {
+    font-size: 0.76rem;
+    color: $hh-ink-muted;
+    border: 1px solid $hh-hairline;
+    border-radius: 999px;
+    padding: 0.14em 0.7em;
+    white-space: nowrap;
+  }
+  .course-epigraph {
+    font-family: $headings-font-family;
+    font-style: italic;
+    color: $hh-ink-muted;
+  }
+  .course-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+  }
+  .course-facts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.85rem;
+    color: $hh-ink-muted;
+    li { padding: 0.14rem 0; }
+  }
+  .syllabus-btn {
+    font-size: 0.85rem;
+    color: $hh-link;
+    border: 1px solid rgba($hh-fir, 0.35);
+    border-radius: 999px;
+    padding: 0.3em 0.95em;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+    &:hover {
+      color: $hh-link-hover;
+      background: rgba($hh-moss, 0.18);
+      border-color: $hh-fir;
+    }
+  }
+}
+
 // scholar citation badge (injected by js/scholar-badges.js)
 .cite-badge {
   font-size: 0.74rem;

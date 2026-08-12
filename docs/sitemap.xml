@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://derekholliday.com/research.html</loc>
-    <lastmod>2026-08-10T04:09:50.772Z</lastmod>
+    <loc>https://derekholliday.com/teaching.html</loc>
+    <lastmod>2026-08-12T16:53:21.882Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekholliday.com/index.html</loc>
+    <lastmod>2026-08-07T22:07:02.000Z</lastmod>
   </url>
   <url>
     <loc>https://derekholliday.com/cv.html</loc>
     <lastmod>2026-08-08T03:44:24.848Z</lastmod>
   </url>
   <url>
-    <loc>https://derekholliday.com/index.html</loc>
-    <lastmod>2026-08-07T22:07:02.000Z</lastmod>
+    <loc>https://derekholliday.com/research.html</loc>
+    <lastmod>2026-08-10T04:09:50.772Z</lastmod>
   </url>
 </urlset>
