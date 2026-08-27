@@ -22,7 +22,7 @@ format:
 
 **The George Washington University**\
 Assistant Professor, Department of Political Science, 2025–Present\
-Research Fellow, Institute for Data, Democracy, and Politics, 2026–Present (Affiliate, 2025–2026)
+Principal Researcher, Institute for Data, Democracy, and Politics, 2026–Present (Affiliate, 2025–2026)
 
 **Stanford University**\
 Postdoctoral Fellow, Polarization Research Lab, 2023–2025
@@ -40,7 +40,7 @@ B.A., Political Science & Philosophy, 2016
 # Publications
 
 ```{=typst}
-#pub(11, [Ploger, Gavin, #strong[Derek Holliday], Yphtach Lelkes, and Sean J. Westwood. Conditionally Accepted. "Skepticism and Common Ground in Political Reform: Navigating Public, Elite, and Partisan Divides." #emph[Nature Communications].])
+#pub(11, [Ploger, Gavin, #strong[Derek Holliday], Yphtach Lelkes, and Sean J. Westwood. Conditionally Accepted. "US public and policymakers see democratic reforms as effective but unlikely to be implemented." #emph[Nature Communications].])
 #v(0.35em)
 #pub(10, [#strong[Holliday, Derek] and Aaron Rudkin. Forthcoming. #link("https://doi.org/10.1086/741831")["DC On My Mind: Voter Evaluations of Nationalized Policy Positions in State and Local Elections."] #emph[Journal of Politics].])
 #v(0.35em)
@@ -127,7 +127,7 @@ B.A., Political Science & Philosophy, 2016
 
 - Bayesian Statistics and MCMC Methods for Social Science (Graduate), Spring 2022
 - Methodologies in Communication Research, Spring 2021
-- Collective Choice and Majority Rules, Spring 2019
+- Collective Choice and Majority Rule, Spring 2019
 - Introduction to American Politics, Winter 2019
 - Congress, Fall 2018
 

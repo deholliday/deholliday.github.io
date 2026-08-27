@@ -1,0 +1,66 @@
+/*-- scss:defaults --*/
+
+// ===========================================================================
+// holliday-site-dark.scss — dark-mode token layer
+// ---------------------------------------------------------------------------
+// Layered after holliday-site.scss (whose tokens are !default): swaps the
+// PNW fog-and-forest palette to its night variant — deep spruce ground,
+// fog-paper text, larch and moss accents brightened for contrast. All rules
+// come from holliday-site.scss and recompile against these values.
+// ===========================================================================
+
+// ---- tokens (night values) ----
+$hh-paper:       #141D1A;   // spruce night ground
+$hh-paper-2:     #1B2622;
+$hh-hairline:    #2A3731;
+$hh-mist:        #33413A;
+$hh-ink:         #E3E4DC;   // fog-paper text
+$hh-ink-muted:   #A3B0A7;
+$hh-ink-faint:   #839188;
+$hh-spruce:      #DCE7DE;   // headings go pale
+$hh-spruce-deep: #F1F0EA;
+$hh-fir:         #7EA28F;
+$hh-moss:        #BCC8AA;   // unchanged — reads as accent on dark
+$hh-larch:       #D9A84E;   // unchanged — gold pops on spruce
+$hh-larch-text:  #E3BC6B;
+$hh-glacier:     #9ECBC3;
+$hh-agave:       #D08F76;
+$hh-link:        #6FC393;
+$hh-link-hover:  #9AD8B5;
+$hh-selection-bg: #55603B;
+$hh-selection-fg: #F4F2E8;
+
+// ---- bootstrap variable mapping (re-stated so dark values apply) ----
+$body-bg: $hh-paper;
+$body-color: $hh-ink;
+$link-color: $hh-link;
+
+$headings-color: $hh-spruce;
+
+$code-color: $hh-agave;
+$code-bg: $hh-paper-2;
+
+$navbar-bg: $hh-paper;
+$navbar-fg: $hh-ink-muted;
+$navbar-hl: $hh-link-hover;
+
+$footer-bg: $hh-paper;
+$footer-fg: $hh-ink-faint;
+
+$table-border-color: $hh-hairline;
+
+/*-- scss:rules --*/
+
+// figures keep their white matte in dark mode (plots are set on white), but
+// soften the frame so the jump from page to panel is quieter
+details.pub .pub-figure img, div.pub .pub-figure img {
+  border-color: $hh-mist;
+}
+
+// altmetric donuts bake their score into the image as near-black text on a
+// transparent ground — set them on a fog-paper disc so the number stays legible
+.altmetric-embed img {
+  background: $hh-spruce-deep;   // fog paper in the night palette
+  border-radius: 50%;
+  padding: 2px;
+}

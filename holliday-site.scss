@@ -14,28 +14,31 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
 // ---- tokens ----
-$hh-paper:       #F9F8F4;
-$hh-paper-2:     #F1F0EA;
-$hh-hairline:    #E4E2D9;
-$hh-mist:        #D9D6CB;
-$hh-ink:         #1F2B27;
-$hh-ink-muted:   #55645D;
-$hh-ink-faint:   #71807A;
-$hh-spruce:      #24352F;
-$hh-spruce-deep: #16211F;
-$hh-fir:         #4F6F60;
-$hh-moss:        #BCC8AA;
-$hh-larch:       #D9A84E;
-$hh-larch-text:  #8A6410;
-$hh-glacier:     #C9E6E1;
-$hh-agave:       #9C5744;
-$hh-link:        #17754B;
-$hh-link-hover:  #14472E;
+// !default so the dark layer (holliday-site-dark.scss) can override them.
+$hh-paper:       #F9F8F4 !default;
+$hh-paper-2:     #F1F0EA !default;
+$hh-hairline:    #E4E2D9 !default;
+$hh-mist:        #D9D6CB !default;
+$hh-ink:         #1F2B27 !default;
+$hh-ink-muted:   #55645D !default;
+$hh-ink-faint:   #71807A !default;
+$hh-spruce:      #24352F !default;
+$hh-spruce-deep: #16211F !default;
+$hh-fir:         #4F6F60 !default;
+$hh-moss:        #BCC8AA !default;
+$hh-larch:       #D9A84E !default;
+$hh-larch-text:  #8A6410 !default;
+$hh-glacier:     #C9E6E1 !default;
+$hh-agave:       #9C5744 !default;
+$hh-link:        #17754B !default;
+$hh-link-hover:  #14472E !default;
+$hh-selection-bg: #EBDFC0 !default;
+$hh-selection-fg: $hh-spruce-deep !default;
 
 // ---- bootstrap variable mapping ----
-$body-bg: $hh-paper;
-$body-color: $hh-ink;
-$link-color: $hh-link;
+$body-bg: $hh-paper !default;
+$body-color: $hh-ink !default;
+$link-color: $hh-link !default;
 $link-decoration: underline;
 
 $font-family-sans-serif: "Cabinet Grotesk", "Hanken Grotesk", "Avenir Next",
@@ -44,23 +47,23 @@ $font-family-sans-serif: "Cabinet Grotesk", "Hanken Grotesk", "Avenir Next",
 $font-family-monospace: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
 $headings-font-family: "Fraunces", "Iowan Old Style", Georgia, serif;
 $headings-font-weight: 600;
-$headings-color: $hh-spruce;
+$headings-color: $hh-spruce !default;
 $headings-line-height: 1.18;
 
 $font-size-root: 15.5px;
 $line-height-base: 1.45;
 
-$code-color: $hh-agave;
-$code-bg: $hh-paper-2;
+$code-color: $hh-agave !default;
+$code-bg: $hh-paper-2 !default;
 
-$navbar-bg: $hh-paper;
-$navbar-fg: $hh-ink-muted;
-$navbar-hl: $hh-link-hover;
+$navbar-bg: $hh-paper !default;
+$navbar-fg: $hh-ink-muted !default;
+$navbar-hl: $hh-link-hover !default;
 
-$footer-bg: $hh-paper;
-$footer-fg: $hh-ink-faint;
+$footer-bg: $hh-paper !default;
+$footer-fg: $hh-ink-faint !default;
 
-$table-border-color: $hh-hairline;
+$table-border-color: $hh-hairline !default;
 $border-radius: 6px;
 
 /*-- scss:rules --*/
@@ -71,7 +74,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-::selection { background: #EBDFC0; color: $hh-spruce-deep; }
+::selection { background: $hh-selection-bg; color: $hh-selection-fg; }
 
 // content column: readable measure
 main.content, .page-columns main { font-size: 1rem; }
@@ -399,6 +402,21 @@ nav[role="doc-toc"] {
   border: 1px solid $hh-hairline;
   border-radius: 8px;
   background: $hh-paper-2;
+}
+
+// ---- light/dark toggle crossfade ----
+// _includes/theme-fade.html puts .theme-fading on <html> for ~500ms around a
+// color-scheme swap; only then do colors transition, so the theme crossfades
+// without slowing everyday hover effects. !important flattens per-element
+// transitions for the duration so everything fades in step.
+html.theme-fading,
+html.theme-fading *,
+html.theme-fading *::before,
+html.theme-fading *::after {
+  transition: background-color 240ms ease, color 240ms ease,
+              border-color 240ms ease, box-shadow 240ms ease,
+              text-decoration-color 240ms ease,
+              fill 240ms ease, stroke 240ms ease !important;
 }
 
 // ---- footer: treeline horizon ----

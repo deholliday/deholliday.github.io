@@ -28,8 +28,8 @@ about:
 ---
 
 Hello! I am an Assistant Professor of American Politics in the Political
-Science Department at The George Washington University, where I am also an
-affiliate of the [Institute for Data, Democracy, and
+Science Department at The George Washington University, where I am also a
+principal researcher at the [Institute for Data, Democracy, and
 Politics](https://iddp.gwu.edu/). I received my PhD in Political Science at
 UCLA. My research interests lie at the intersection of political behavior and
 institutions, with a focus on representation. I am specifically interested in

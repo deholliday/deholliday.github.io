@@ -38,4 +38,4 @@ toc-title: "On this page"
 
 ## Earlier Teaching
 
-At UCLA, I taught Representation in State and Local Politics (Summer 2020) as instructor of record, and served as a teaching assistant for courses including Bayesian Statistics and MCMC Methods for Social Science (Graduate), Methodologies in Communication Research, Collective Choice and Majority Rules, Introduction to American Politics, and Congress.
+At UCLA, I taught Representation in State and Local Politics (Summer 2020) as instructor of record, and served as a teaching assistant for courses including Bayesian Statistics and MCMC Methods for Social Science (Graduate), Methodologies in Communication Research, Collective Choice and Majority Rule, Introduction to American Politics, and Congress.
