@@ -40,6 +40,8 @@ B.A., Political Science & Philosophy, 2016
 # Publications
 
 ```{=typst}
+#pub(12, [Walk, Erin, #strong[Derek Holliday], Yphtach Lelkes, and Sean J. Westwood. Conditionally Accepted. #link("https://osf.io/preprints/osf/qacmr")["Defending Democracy or Fueling Division? Admonishing Anti-Democratic Behavior in a Polarized Nation."] #emph[British Journal of Political Science].])
+#v(0.35em)
 #pub(11, [Ploger, Gavin, #strong[Derek Holliday], Yphtach Lelkes, and Sean J. Westwood. Conditionally Accepted. "US public and policymakers see democratic reforms as effective but unlikely to be implemented." #emph[Nature Communications].])
 #v(0.35em)
 #pub(10, [#strong[Holliday, Derek] and Aaron Rudkin. Forthcoming. #link("https://doi.org/10.1086/741831")["DC On My Mind: Voter Evaluations of Nationalized Policy Positions in State and Local Elections."] #emph[Journal of Politics].])
@@ -65,11 +67,10 @@ B.A., Political Science & Philosophy, 2016
 
 # Under Review
 
-1. [Anti-Democratic Condemnation has Limited and Inconsistent Effects on Vote Choice and Democratic Attitudes](https://osf.io/preprints/osf/qacmr) (Revise and Resubmit at *British Journal of Political Science* with Erin Walk, Yphtach Lelkes, and Sean J. Westwood)
-2. America's Political Pulse, a database of democratic attitudes across all levels of U.S. government (Revise and Resubmit at *Scientific Data*, with Yphtach Lelkes, Ellie M. Mitchell, and Sean J. Westwood)
-3. A Republic, If You Like It: Policy Preferences Condition Perceptions of Democracy (with Sean J. Westwood)
-4. Shared Standards, Divided Verdicts: How Party Identity Shapes Perceptions of Domestic Terrorism (with Sean J. Westwood)
-5. [Changing Partisanship Contributes Significantly to Rising Affective Polarization: Evidence from a Decomposition of Panel Data](https://osf.io/preprints/socarxiv/rvtsf_v1)
+1. America's Political Pulse, a database of democratic attitudes across all levels of U.S. government (Revise and Resubmit at *Scientific Data*, with Yphtach Lelkes, Ellie M. Mitchell, and Sean J. Westwood)
+2. A Republic, If You Like It: Policy Preferences Condition Perceptions of Democracy (with Sean J. Westwood)
+3. Shared Standards, Divided Verdicts: How Party Identity Shapes Perceptions of Domestic Terrorism (with Sean J. Westwood)
+4. [Changing Partisanship Contributes Significantly to Rising Affective Polarization: Evidence from a Decomposition of Panel Data](https://osf.io/preprints/socarxiv/rvtsf_v1)
 
 # Other Writing
 

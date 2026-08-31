@@ -10,6 +10,11 @@ toc-title: "On this page"
 
 <div class="pub-list">
 
+<details class="pub" data-title="Defending Democracy or Fueling Division? Admonishing Anti-Democratic Behavior in a Polarized Nation">
+<summary><div class="pub-row"><span class="pub-num">12.</span><div class="pub-cite">Walk, Erin, <strong>Derek Holliday</strong>, Yphtach Lelkes, and Sean J. Westwood. Conditionally Accepted. <a href="https://osf.io/preprints/osf/qacmr" target="_blank" rel="noopener">&quot;Defending Democracy or Fueling Division? Admonishing Anti-Democratic Behavior in a Polarized Nation.&quot;</a> <em>British Journal of Political Science</em>.</div><div class="pub-side"></div></div></summary>
+<div class="pub-body"><div class="pub-abstract"><span class="pub-abstract-label">Abstract</span><p>Amid rising fears of democratic backsliding, American elites (from both parties) increasingly admonish their opponents for threatening democratic norms. To understand the impact of this strategy, it is essential to analyze both its prevalence in the political landscape and its persuasive effects on voters. First, we analyze the prevalence of this tactic through a machine-learning analysis of over two million political statements. Our analysis reveals a clear rhetorical symmetry: despite potential asymmetries in the precipitating anti-democratic acts, the tactic of admonishment is deployed by both parties with similar frequency, creating a highly competitive information environment. Second, we investigate the effects of this rhetoric within that environment through two large survey experiments (N=3,500). In this environment, we find that such warnings have exceptionally fragile effects: a brief, significant shift in vote choice against a voter’s own party vanishes entirely within ten days. The strategy fails to alter core democratic beliefs and primarily provokes negative emotions. These findings show that admonishing opponents is a remarkably ineffective tool for either persuasion or the psychological antecedents of mobilization yielding fleeting gains while potentially reinforcing the very divisions that threaten democratic stability.</p></div></div>
+</details>
+
 <details class="pub" data-title="US public and policymakers see democratic reforms as effective but unlikely to be implemented">
 <summary><div class="pub-row"><span class="pub-num">11.</span><div class="pub-cite">Ploger, Gavin, <strong>Derek Holliday</strong>, Yphtach Lelkes, and Sean J. Westwood. Conditionally Accepted. "US public and policymakers see democratic reforms as effective but unlikely to be implemented." <em>Nature Communications</em>.</div><div class="pub-side"></div></div></summary>
 <div class="pub-body"><div class="pub-abstract"><span class="pub-abstract-label">Abstract</span><p>Voters, politicians, activists, and scholars have proposed a range of reforms intended to stabilize democracy and reduce polarization in the United States. For any of these changes to succeed, they must have the support of both the mass public and the policymakers who would implement them. We surveyed 1,000 citizens and 1,300 politicians in the United States to assess whether each group views ten potential democratic reforms as implementable and effective. Neither group—especially elites—is optimistic about the likelihood that these reforms will be implemented, but both are moderately optimistic about their effectiveness if implemented. We find little evidence that either group cherry-picks among reforms; instead, the public and politicians take a consistently lukewarm view of reforms overall. These attitudes are similar across party lines, suggesting opportunities for coalition-building around potential reforms. Ultimately, our data suggest that although reformers face significant barriers to implementation, there is more agreement than disagreement about the effectiveness of these reforms, making efforts to pursue structural change worth the investment.</p></div><figure class="pub-figure"><img src="research/figs/naturecommsfig1.png" alt="Figure 1 of “US public and policymakers see democratic reforms as effective but unlikely to be implemented”"/><figcaption>Fig. 1: public and policymaker ratings of ten reforms’ effectiveness and likelihood.</figcaption></figure></div>
@@ -69,15 +74,13 @@ toc-title: "On this page"
 
 ## Under Review
 
-1. <a href="https://osf.io/preprints/osf/qacmr" target="_blank" rel="noopener">Anti-Democratic Condemnation has Limited and Inconsistent Effects on Vote Choice and Democratic Attitudes</a> (Revise and Resubmit at *British Journal of Political Science* with Erin Walk, Yphtach Lelkes, and Sean J. Westwood)
+1. America's Political Pulse, a database of democratic attitudes across all levels of U.S. government (Revise and Resubmit at *Scientific Data*, with Yphtach Lelkes, Ellie M. Mitchell, and Sean J. Westwood)
 
-2. America's Political Pulse, a database of democratic attitudes across all levels of U.S. government (Revise and Resubmit at *Scientific Data*, with Yphtach Lelkes, Ellie M. Mitchell, and Sean J. Westwood)
+2. A Republic, If You Like It: Policy Preferences Condition Perceptions of Democracy (with Sean J. Westwood)
 
-3. A Republic, If You Like It: Policy Preferences Condition Perceptions of Democracy (with Sean J. Westwood)
+3. Shared Standards, Divided Verdicts: How Party Identity Shapes Perceptions of Domestic Terrorism (with Sean J. Westwood)
 
-4. Shared Standards, Divided Verdicts: How Party Identity Shapes Perceptions of Domestic Terrorism (with Sean J. Westwood)
-
-5. <a href="https://osf.io/preprints/socarxiv/rvtsf_v1" target="_blank" rel="noopener">Changing Partisanship Contributes Significantly to Rising Affective Polarization: Evidence from a Decomposition of Panel Data</a>
+4. <a href="https://osf.io/preprints/socarxiv/rvtsf_v1" target="_blank" rel="noopener">Changing Partisanship Contributes Significantly to Rising Affective Polarization: Evidence from a Decomposition of Panel Data</a>
 
 
 ## Projects in Progress
