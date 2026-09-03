@@ -53,7 +53,7 @@ format:
       light: [default, holliday-site.scss]
       dark: [default, holliday-site.scss, holliday-site-dark.scss]
     respect-user-color-scheme: true
-    include-after-body: _includes/theme-fade.html
+    include-after-body: _includes/navbar.html
     toc: false
     anchor-sections: false
     link-external-newwindow: true

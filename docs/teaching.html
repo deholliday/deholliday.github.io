@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-949ceaa56ea364b0f0e87398b301f850.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d007226b759aca880dafeb8ca54d2632.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-9f5583b36d2c5a30e21f99920b183048.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-d007226b759aca880dafeb8ca54d2632.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f4daa3d62e4de1dcaf8e4707128598a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e9c4ab0e0d95620f1d4ba98bd53c8af4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f4daa3d62e4de1dcaf8e4707128598a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -528,8 +528,9 @@ Taught: Fall 2025
 
 </main> <!-- /main -->
 <script>
-// Crossfade the light/dark swap: briefly arm color transitions (see the
-// html.theme-fading rules in holliday-site.scss) whenever the theme changes.
+// Navbar behaviors: responsive placement of the light/dark toggle, its
+// tooltip, the crossfade on theme swap, and the External Profiles subheader
+// in the collapsed menu. Companion styles live in holliday-site.scss.
 (function () {
   var t;
   function fade() {
@@ -538,9 +539,20 @@ Taught: Fall 2025
     clearTimeout(t);
     t = setTimeout(function () { root.classList.remove("theme-fading"); }, 500);
   }
+  function label() {
+    var el = document.querySelector(".quarto-color-scheme-toggle");
+    if (!el) return;
+    var name = el.classList.contains("alternate")
+      ? "Switch to light mode" : "Switch to dark mode";
+    el.setAttribute("title", name);
+    el.setAttribute("aria-label", name);
+  }
   // runs in the capture phase so the class is on before Quarto swaps stylesheets
   document.addEventListener("click", function (e) {
-    if (e.target.closest && e.target.closest(".quarto-color-scheme-toggle")) fade();
+    if (e.target.closest && e.target.closest(".quarto-color-scheme-toggle")) {
+      fade();
+      setTimeout(label, 50); // after Quarto flips the .alternate class
+    }
   }, true);
   // also fade when the OS scheme flips under respect-user-color-scheme
   if (window.matchMedia) {
@@ -548,6 +560,42 @@ Taught: Fall 2025
       window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", fade);
     } catch (err) { /* older Safari: no fade on OS flips, toggle still fades */ }
   }
+
+  // toggle placement: beside the nav links on wide screens; back in the
+  // always-visible tools slot (next to search) when the navbar collapses
+  var tools = document.querySelector(".navbar .quarto-navbar-tools");
+  var toggle = tools && tools.querySelector(".quarto-color-scheme-toggle");
+  var leftNav = document.querySelector(".navbar #navbarCollapse .navbar-nav.me-auto");
+  var wide = window.matchMedia("(min-width: 992px)");
+  var li = null;
+  function placeToggle() {
+    if (!toggle || !leftNav) return;
+    if (wide.matches) {
+      if (!li) {
+        li = document.createElement("li");
+        li.className = "nav-item nav-item-theme-toggle";
+      }
+      li.appendChild(toggle);
+      leftNav.appendChild(li);
+    } else {
+      tools.appendChild(toggle);
+      if (li && li.parentNode) li.parentNode.removeChild(li);
+    }
+  }
+  placeToggle();
+  try { wide.addEventListener("change", placeToggle); }
+  catch (err) { window.addEventListener("resize", placeToggle); }
+
+  // collapsed menu: caption the social-icon row (hidden on wide screens)
+  var rightNav = document.querySelector(".navbar #navbarCollapse .navbar-nav.ms-auto");
+  if (rightNav) {
+    var header = document.createElement("li");
+    header.className = "nav-item profiles-header d-lg-none";
+    header.textContent = "External Profiles";
+    rightNav.insertBefore(header, rightNav.firstChild);
+  }
+
+  label();
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

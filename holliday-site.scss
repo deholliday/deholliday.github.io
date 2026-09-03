@@ -404,8 +404,93 @@ nav[role="doc-toc"] {
   background: $hh-paper-2;
 }
 
+// ---- light/dark toggle: hand-drawn moon/sun beside the nav links ----
+// _includes/navbar.html moves Quarto's toggle from the far-right tools
+// slot into the left nav after "CV" (and back when the navbar collapses).
+// The stock toggle-switch glyph is replaced
+// with stroke-style moon (light mode: "switch to dark") and sun (dark mode)
+// icons, masked so they tint with the palette like every other nav icon.
+$hh-icon-moon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M13.4 9.9A5.6 5.6 0 1 1 6.1 2.6a4.5 4.5 0 0 0 7.3 7.3z" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+$hh-icon-sun: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><circle cx="8" cy="8" r="2.7" fill="none" stroke="black" stroke-width="1.5"/><path d="M8 1.2v1.8M8 13v1.8M1.2 8H3M13 8h1.8M3.2 3.2l1.3 1.3M11.5 11.5l1.3 1.3M12.8 3.2l-1.3 1.3M4.5 11.5l-1.3 1.3" stroke="black" stroke-width="1.5" stroke-linecap="round"/></svg>');
+
+li.nav-item-theme-toggle {
+  display: flex;
+  align-items: center;
+  margin-left: 0.4rem;
+
+  .quarto-color-scheme-toggle {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.3rem;
+    // nav-link text sits ~1px below the row's geometric center (0.5rem top
+    // vs 0.35rem bottom padding) — nudge the icon to its optical level
+    transform: translateY(1px);
+    .bi { display: block; }
+    .bi::before { display: block; }
+  }
+}
+
+// when the navbar collapses, the toggle returns to the always-visible tools
+// slot beside the search icon (see _includes/navbar.html)
+@media (max-width: 991.98px) {
+  .navbar .quarto-navbar-tools {
+    display: flex;
+    align-items: center;
+  }
+}
+
+// collapsed menu: group the social icons in a compact row under a subheader
+// instead of six stacked icon-only rows
+@media (max-width: 991.98px) {
+  .navbar .navbar-nav.ms-auto {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0.6rem;
+    padding-top: 0.6rem;
+    border-top: 1px solid $hh-hairline;
+
+    .profiles-header {
+      width: 100%;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $hh-ink-faint;
+      padding: 0 0 0.3rem 0.2rem;
+    }
+    .nav-item.compact .nav-link {
+      padding: 0.3rem 0.6rem;
+    }
+  }
+}
+
+nav.navbar .quarto-color-scheme-toggle .bi::before {
+  height: 1.05rem;
+  width: 1.05rem;
+  background-color: $hh-ink-muted;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  transition: background-color 120ms ease;
+}
+nav.navbar .quarto-color-scheme-toggle:hover .bi::before {
+  background-color: $hh-link-hover;
+}
+nav.navbar .quarto-color-scheme-toggle:not(.alternate) .bi::before {
+  background-image: none;
+  -webkit-mask-image: $hh-icon-moon;
+  mask-image: $hh-icon-moon;
+}
+nav.navbar .quarto-color-scheme-toggle.alternate .bi::before {
+  background-image: none;
+  -webkit-mask-image: $hh-icon-sun;
+  mask-image: $hh-icon-sun;
+}
+
 // ---- light/dark toggle crossfade ----
-// _includes/theme-fade.html puts .theme-fading on <html> for ~500ms around a
+// _includes/navbar.html puts .theme-fading on <html> for ~500ms around a
 // color-scheme swap; only then do colors transition, so the theme crossfades
 // without slowing everyday hover effects. !important flattens per-element
 // transitions for the duration so everything fades in step.

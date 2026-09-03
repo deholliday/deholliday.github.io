@@ -1,0 +1,71 @@
+<script>
+// Navbar behaviors: responsive placement of the light/dark toggle, its
+// tooltip, the crossfade on theme swap, and the External Profiles subheader
+// in the collapsed menu. Companion styles live in holliday-site.scss.
+(function () {
+  var t;
+  function fade() {
+    var root = document.documentElement;
+    root.classList.add("theme-fading");
+    clearTimeout(t);
+    t = setTimeout(function () { root.classList.remove("theme-fading"); }, 500);
+  }
+  function label() {
+    var el = document.querySelector(".quarto-color-scheme-toggle");
+    if (!el) return;
+    var name = el.classList.contains("alternate")
+      ? "Switch to light mode" : "Switch to dark mode";
+    el.setAttribute("title", name);
+    el.setAttribute("aria-label", name);
+  }
+  // runs in the capture phase so the class is on before Quarto swaps stylesheets
+  document.addEventListener("click", function (e) {
+    if (e.target.closest && e.target.closest(".quarto-color-scheme-toggle")) {
+      fade();
+      setTimeout(label, 50); // after Quarto flips the .alternate class
+    }
+  }, true);
+  // also fade when the OS scheme flips under respect-user-color-scheme
+  if (window.matchMedia) {
+    try {
+      window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", fade);
+    } catch (err) { /* older Safari: no fade on OS flips, toggle still fades */ }
+  }
+
+  // toggle placement: beside the nav links on wide screens; back in the
+  // always-visible tools slot (next to search) when the navbar collapses
+  var tools = document.querySelector(".navbar .quarto-navbar-tools");
+  var toggle = tools && tools.querySelector(".quarto-color-scheme-toggle");
+  var leftNav = document.querySelector(".navbar #navbarCollapse .navbar-nav.me-auto");
+  var wide = window.matchMedia("(min-width: 992px)");
+  var li = null;
+  function placeToggle() {
+    if (!toggle || !leftNav) return;
+    if (wide.matches) {
+      if (!li) {
+        li = document.createElement("li");
+        li.className = "nav-item nav-item-theme-toggle";
+      }
+      li.appendChild(toggle);
+      leftNav.appendChild(li);
+    } else {
+      tools.appendChild(toggle);
+      if (li && li.parentNode) li.parentNode.removeChild(li);
+    }
+  }
+  placeToggle();
+  try { wide.addEventListener("change", placeToggle); }
+  catch (err) { window.addEventListener("resize", placeToggle); }
+
+  // collapsed menu: caption the social-icon row (hidden on wide screens)
+  var rightNav = document.querySelector(".navbar #navbarCollapse .navbar-nav.ms-auto");
+  if (rightNav) {
+    var header = document.createElement("li");
+    header.className = "nav-item profiles-header d-lg-none";
+    header.textContent = "External Profiles";
+    rightNav.insertBefore(header, rightNav.firstChild);
+  }
+
+  label();
+})();
+</script>
