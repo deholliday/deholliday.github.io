@@ -13,25 +13,34 @@
     .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
     .then((data) => {
       const papers = data.papers.map((p) => ({ ...p, key: norm(p.title) }));
-      document.querySelectorAll(".pub[data-title]").forEach((pub) => {
-        const key = norm(pub.dataset.title);
-        if (!key) return;
-        const hit = papers.find(
+      const match = (key) =>
+        papers.find(
           (p) =>
             p.key === key ||
             p.key.startsWith(key.slice(0, 60)) ||
             key.startsWith(p.key.slice(0, 60))
         );
-        if (!hit || !hit.cites) return;
+      document.querySelectorAll(".pub[data-title]").forEach((pub) => {
+        // data-scholar-alt lists other titles the same work appears under on
+        // Scholar (e.g. a preprint not yet merged into the published entry);
+        // separate with " | ". Hits are de-duplicated, so counts stay right
+        // once Scholar merges the records.
+        const keys = [pub.dataset.title]
+          .concat((pub.dataset.scholarAlt || "").split("|"))
+          .map(norm)
+          .filter(Boolean);
+        const hits = [...new Set(keys.map(match))].filter((h) => h && h.cites);
+        if (!hits.length) return;
+        const cites = hits.reduce((n, h) => n + h.cites, 0);
         const side = pub.querySelector(".pub-side");
         if (!side) return;
         const a = document.createElement("a");
         a.className = "cite-badge";
-        a.href = hit.cites_url || data.profile;
+        a.href = (hits.length === 1 && hits[0].cites_url) || data.profile;
         a.target = "_blank";
         a.rel = "noopener";
         a.title = `Google Scholar, as of ${data.updated}`;
-        a.textContent = `${hit.cites.toLocaleString()} citation${hit.cites === 1 ? "" : "s"}`;
+        a.textContent = `${cites.toLocaleString()} citation${cites === 1 ? "" : "s"}`;
         side.appendChild(a);
       });
     })
