@@ -14,9 +14,9 @@ $hh-paper:       #141D1A;   // spruce night ground
 $hh-paper-2:     #1B2622;
 $hh-hairline:    #2A3731;
 $hh-mist:        #33413A;
-$hh-ink:         #E3E4DC;   // fog-paper text
-$hh-ink-muted:   #A3B0A7;
-$hh-ink-faint:   #839188;
+$hh-ink:         #EDEEE8;   // fog-paper text
+$hh-ink-muted:   #C1CCC3;
+$hh-ink-faint:   #99A69D;
 $hh-spruce:      #DCE7DE;   // headings go pale
 $hh-spruce-deep: #F1F0EA;
 $hh-fir:         #7EA28F;
@@ -50,6 +50,10 @@ $footer-fg: $hh-ink-faint;
 $table-border-color: $hh-hairline;
 
 /*-- scss:rules --*/
+
+// Quarto paints <details> summaries Bootstrap grey-600 (#6c757d), which
+// sinks into the night ground — lift accordion rows to full ink
+details > summary { color: $hh-ink; }
 
 // figures keep their white matte in dark mode (plots are set on white), but
 // soften the frame so the jump from page to panel is quieter
