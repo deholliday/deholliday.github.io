@@ -11,7 +11,9 @@ Grotesk).
   serves (Settings → Pages → `master` / `docs`). `CNAME` is copied in
   automatically.
 - `cv-pdf.qmd` renders `Holliday_CV.pdf` via Typst using the system-installed
-  brand fonts; `cv.qmd` embeds it.
+  brand fonts; `cv.qmd` embeds it. A post-render script
+  (`tools/cv_cache_bust.py`) tags the CV links with `?v=<pdf hash>` so
+  browsers don't keep showing a cached copy after the PDF changes.
 - Publication figures live in `research/figs/`; each paper on the research
   page is an accordion with abstract + figure. Google Scholar citation badges
   read `data/scholar.json` client-side.

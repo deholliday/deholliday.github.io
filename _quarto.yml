@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  post-render: tools/cv_cache_bust.py
   render:
     - "*.qmd"
     - "syllabi/*.qmd"
