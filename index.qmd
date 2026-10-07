@@ -37,10 +37,11 @@ how partisan identification and animosity structures behavior across all
 levels of U.S. politics: national, state, and local. I utilize methods
 involving big data, machine learning, text-as-data, and survey experiments.
 
-My work is published in the *Proceedings of the National Academy of
-Sciences*, *The Journal of Politics*, *Quarterly Journal of Political
-Science*, *Political Science Research and Methods*, *PNAS Nexus*, and the
-*Election Law Journal*, and has been cited in the [New York
+My work is published or forthcoming in the *Proceedings of the National
+Academy of Sciences*, *Nature Communications*, *The Journal of Politics*, the
+*British Journal of Political Science*, the *Quarterly Journal of Political
+Science*, *Political Science Research and Methods*, *Scientific Data*, *PNAS
+Nexus*, and the *Election Law Journal*, and has been cited in the [New York
 Times](https://www.nytimes.com/2023/09/24/us/politics/trump-prosecutions-threats-violence.html).
 My dissertation and papers therein have been awarded the Christopher Z.
 Mooney Best Dissertation Prize and the SPPQ best paper award by APSA's State
