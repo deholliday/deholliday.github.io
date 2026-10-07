@@ -1,6 +1,5 @@
 ---
 title: "Derek E. Holliday"
-updated: "August 2026"
 contact:
   - text: "Department of Political Science"
   - text: "The George Washington University"
@@ -153,4 +152,4 @@ B.A., Political Science & Philosophy, 2016
 
 # Referee
 
-*American Journal of Political Science*, *American Political Science Review*, *Journal of Politics*, *British Journal of Political Science*, *Proceedings of the National Academy of Sciences*, *Political Analysis*, *Political Science Research and Methods*, *PNAS Nexus*, *Public Opinion Quarterly*, *Politics, Groups, and Identities*, *American Politics Research*, *Social Science Quarterly*, *rapidPeer*
+*Proceedings of the National Academy of Sciences*, *American Journal of Political Science*, *American Political Science Review*, *Journal of Politics*, *Political Analysis*, *British Journal of Political Science*, *Public Opinion Quarterly*, *Political Science Research and Methods*, *PNAS Nexus*, *Politics, Groups, and Identities*, *American Politics Research*, *Social Science Quarterly*, *rapidPeer*

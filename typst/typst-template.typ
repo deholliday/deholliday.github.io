@@ -41,7 +41,7 @@
       #grid(columns: (1fr, 1fr, 1fr),
         align(left)[#title · Curriculum Vitae],
         align(center)[#counter(page).display("1 / 1", both: true)],
-        align(right)[#updated],
+        align(right)[Last updated #if updated != none [#updated] else [#datetime.today().display("[month repr:long] [day padding:none], [year]")]],
       )
     ],
   )
